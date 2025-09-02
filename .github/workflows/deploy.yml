@@ -32,7 +32,13 @@ jobs:
       - name: Build site with Pelican
         run: pelican content -o output -s publishconf.py
 
-      # Checkout public repo with Git identity set in env
+      # Configure Git globally so checkout of public repo works
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Checkout public repo
       - name: Checkout public repo
         uses: actions/checkout@v4
         with:
@@ -41,11 +47,6 @@ jobs:
           token: ${{ secrets.PUBLISH_TOKEN }}
           ref: main
           fetch-depth: 0
-        env:
-          GIT_AUTHOR_NAME: github-actions[bot]
-          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
-          GIT_COMMITTER_NAME: github-actions[bot]
-          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
 
       # Deploy site (mirror output, preserve files, commit only if changes)
       - name: Deploy to public repo
@@ -55,32 +56,27 @@ jobs:
           # Ensure branch exists
           git checkout -B main
 
-          # Set Git identity locally (redundant but safe)
+          # Optional: override Git identity locally (redundant but safe)
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Preserve files
+          # Files to preserve
           PRESERVE_FILES=("README.md")  # add more files if needed
+
+          # Backup preserved files
           for f in "${PRESERVE_FILES[@]}"; do
-            if [ -f "$f" ]; then
-              cp "$f" ../
-            fi
+            [ -f "$f" ] && cp "$f" ../
           done
 
-          # Delete all files/folders except .git
-          find . -mindepth 1 ! -name '.git' -exec rm -rf {} +
-
-          # Copy new Pelican output
-          cp -r ../output/* .
+          # Sync Pelican output to repo, excluding .git and preserved files
+          rsync -a --delete ../output/ ./ --exclude ".git" --exclude "${PRESERVE_FILES[@]}"
 
           # Restore preserved files
           for f in "${PRESERVE_FILES[@]}"; do
-            if [ -f "../$f" ]; then
-              cp "../$f" .
-            fi
+            [ -f "../$f" ] && cp "../$f" .
           done
 
-          # Add & commit changes only if there are any
+          # Commit & push only if there are changes
           git add .
           if ! git diff-index --quiet HEAD; then
             git commit -m "Deploy site"
