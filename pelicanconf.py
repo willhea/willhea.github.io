@@ -1,4 +1,5 @@
 #Pelican config file
+import datetime
 
 AUTHOR = 'Will Hea'
 SITENAME = 'willhea.com'
@@ -56,3 +57,6 @@ STATIC_PATHS = [
 
 # Exclude drafts from generation
 ARTICLE_EXCLUDES = ["drafts"]
+
+# Expose current year to templates (avoid using Jinja now())
+CURRENT_YEAR = datetime.date.today().year

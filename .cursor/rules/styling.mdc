@@ -4,6 +4,9 @@ globs:
 alwaysApply: false
 ---
 - All styling should be **minimalist**: clean, uncluttered layouts with ample spacing and no unnecessary decoration.  
+- Consulting Pelican's themes documenation before making changes: 
+  - https://docs.getpelican.com/en/latest/themes.html
+  - https://docs.getpelican.com/en/latest/pelican-themes.html
 - Ensure strong **readability and accessibility**:  
   - Minimum 16px base font size.  
   - High contrast for links, buttons, and highlights (e.g., `#00BFFF` for links).  
