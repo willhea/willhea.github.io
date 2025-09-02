@@ -3,7 +3,7 @@ import datetime
 
 AUTHOR = 'Will Hea'
 SITENAME = 'Will Hea'
-SITEURL = ""
+SITEURL = "https://willhea.com"
 
 PATH = "content"
 OUTPUT_PATH = "output"
@@ -35,7 +35,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True # good for local dev if you enable it
+# RELATIVE_URLS = True # good for local dev if you enable it
 THEME = 'simple'
 
 # Allow overriding theme templates from local templates directory
@@ -44,6 +44,7 @@ THEME_TEMPLATES_OVERRIDES = ["templates"]
 # path-specific metadata
 EXTRA_PATH_METADATA = {
     "extra/robots.txt": {"path": "robots.txt"},
+    "extra/CNAME": {"path": "CNAME"},
     # Map custom site stylesheet to root for easy linking as /site.css
     "extra/site.css": {"path": "site.css"},
 }
