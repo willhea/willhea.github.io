@@ -76,3 +76,15 @@ jobs:
           # Restore preserved files
           for f in "${PRESERVE_FILES[@]}"; do
             if [ -f "../$f" ]; then
+              cp "../$f" .
+            fi
+          done
+
+          # Add & commit changes only if there are any
+          git add .
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Deploy site"
+            git push origin main
+          else
+            echo "No changes detected; skipping deploy."
+          fi
