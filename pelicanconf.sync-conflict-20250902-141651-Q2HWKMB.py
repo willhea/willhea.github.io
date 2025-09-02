@@ -44,7 +44,7 @@ THEME_TEMPLATES_OVERRIDES = ["templates"]
 # path-specific metadata
 EXTRA_PATH_METADATA = {
     "extra/robots.txt": {"path": "robots.txt"},
-
+    "extra/CNAME": {"path": "CNAME"},
     # Map custom site stylesheet to root for easy linking as /site.css
     "extra/site.css": {"path": "site.css"},
 }
