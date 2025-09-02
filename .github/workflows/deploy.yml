@@ -42,10 +42,14 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      # Deploy site (mirror output, preserve files)
+      # Deploy site (mirror output, preserve files, set Git identity)
       - name: Deploy to public repo
         run: |
           cd public_repo
+
+          # Set Git identity for commits
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Files to preserve
           PRESERVE_FILES=("README.md")  # add more files if needed
