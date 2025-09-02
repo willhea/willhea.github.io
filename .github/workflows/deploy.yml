@@ -47,7 +47,10 @@ jobs:
         run: |
           cd public_repo
 
-          # Set Git identity for commits
+          # Ensure branch exists
+          git checkout -B main
+
+          # Set Git identity locally
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -59,7 +62,7 @@ jobs:
             fi
           done
 
-          # Delete everything except .git
+          # Delete all files/folders except .git
           find . -mindepth 1 ! -name '.git' -exec rm -rf {} +
 
           # Copy new Pelican output
