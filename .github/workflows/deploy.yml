@@ -1,8 +1,10 @@
 name: Build and Deploy Pelican Site
 
+# Trigger on push to main **and** manually
 on:
   push:
-    branches: ["main"]   # <-- triggers when you push to the main branch
+    branches: ["main"]
+  workflow_dispatch:   # <-- manual trigger
 
 jobs:
   build-deploy:
@@ -36,4 +38,3 @@ jobs:
           git add .
           git commit -m "Deploy site"
           git push --force origin main
-
