@@ -81,14 +81,6 @@ jobs:
 
           # Create CNAME file for custom domain
           echo "willhea.com" > CNAME
-          
-          # Debug: Show what we created
-          echo "=== CNAME file contents ==="
-          cat CNAME
-          echo "=== CNAME file details ==="
-          ls -la CNAME
-          echo "=== Current directory contents ==="
-          ls -la
 
           # Commit & push only if there are changes
           git add .
