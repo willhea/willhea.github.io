@@ -34,12 +34,17 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False # good for local dev if you enable it
+RELATIVE_URLS = True # good for local dev if you enable it
 THEME = 'simple'
+
+# Allow overriding theme templates from local templates directory
+THEME_TEMPLATES_OVERRIDES = ["templates"]
 
 # path-specific metadata
 EXTRA_PATH_METADATA = {
     "extra/robots.txt": {"path": "robots.txt"},
+    # Map custom site stylesheet to root for easy linking as /site.css
+    "extra/site.css": {"path": "site.css"},
 }
 
 # Static files copied as-is to the output directory
@@ -48,3 +53,6 @@ STATIC_PATHS = [
     "images",
     "extra",
 ]
+
+# Exclude drafts from generation
+ARTICLE_EXCLUDES = ["drafts"]
