@@ -30,32 +30,36 @@ jobs:
 
       - name: Deploy to public repo (mirror output, preserve files)
         run: |
-          # Clone the public repo
+          # Clone public repo
           git clone https://x-access-token:${{ secrets.PUBLISH_TOKEN }}@github.com/willhea/willhea.github.io.git public_repo
           cd public_repo
           git checkout main
-
+          
+          # Set Git identity
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
           # Preserve files you want to keep
-          PRESERVE_FILES=("README.md")  # add more filenames here if needed
+          PRESERVE_FILES=("README.md")
           for f in "${PRESERVE_FILES[@]}"; do
             if [ -f "$f" ]; then
               cp "$f" ../
             fi
           done
-
+              
           # Delete all files/folders except .git
           find . -mindepth 1 ! -name '.git' -exec rm -rf {} +
-
+          
           # Copy new Pelican output
           cp -r ../output/* .
-
+          
           # Restore preserved files
           for f in "${PRESERVE_FILES[@]}"; do
             if [ -f "../$f" ]; then
               cp "../$f" .
             fi
           done
-
+          
           # Add & commit changes
           git add .
           if ! git diff-index --quiet HEAD; then
@@ -64,3 +68,5 @@ jobs:
           else
             echo "No changes detected; skipping deploy."
           fi
+
+        
