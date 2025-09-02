@@ -1,0 +1,2 @@
+Start python virtual environment: source /home/willhea/Documents/willhea.com/private/willhea.github.io_private/env/bin/activate
+

@@ -34,5 +34,17 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True # good for local dev if you enable it
+RELATIVE_URLS = False # good for local dev if you enable it
 THEME = 'simple'
+
+# path-specific metadata
+EXTRA_PATH_METADATA = {
+    "extra/robots.txt": {"path": "robots.txt"},
+}
+
+# Static files copied as-is to the output directory
+# - Place post images under content/images and reference as /images/<file>
+STATIC_PATHS = [
+    "images",
+    "extra",
+]

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+pip-log.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Pelican output
+output/
+
+# Editors/IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
