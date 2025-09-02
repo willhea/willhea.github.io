@@ -32,7 +32,7 @@ jobs:
       - name: Build site with Pelican
         run: pelican content -o output -s publishconf.py
 
-      # Checkout public repo
+      # Checkout public repo with Git identity set in env
       - name: Checkout public repo
         uses: actions/checkout@v4
         with:
@@ -41,8 +41,13 @@ jobs:
           token: ${{ secrets.PUBLISH_TOKEN }}
           ref: main
           fetch-depth: 0
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
 
-      # Deploy site (mirror output, preserve files, set Git identity)
+      # Deploy site (mirror output, preserve files, commit only if changes)
       - name: Deploy to public repo
         run: |
           cd public_repo
@@ -50,11 +55,11 @@ jobs:
           # Ensure branch exists
           git checkout -B main
 
-          # Set Git identity locally
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          # Set Git identity locally (redundant but safe)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Files to preserve
+          # Preserve files
           PRESERVE_FILES=("README.md")  # add more files if needed
           for f in "${PRESERVE_FILES[@]}"; do
             if [ -f "$f" ]; then
@@ -71,15 +76,3 @@ jobs:
           # Restore preserved files
           for f in "${PRESERVE_FILES[@]}"; do
             if [ -f "../$f" ]; then
-              cp "../$f" .
-            fi
-          done
-
-          # Add & commit changes only if there are any
-          git add .
-          if ! git diff-index --quiet HEAD; then
-            git commit -m "Deploy site"
-            git push origin main
-          else
-            echo "No changes detected; skipping deploy."
-          fi
