@@ -11,5 +11,3 @@ Pelican is a python project for generating and maintaining a static site:
 - Pelican github: https://github.com/getpelican/pelican
 - Pelican website: https://docs.getpelican.com/en/stable/index.html
 - Tips for hosting via Github Pages: https://docs.getpelican.com/en/stable/tips.html
-
-
