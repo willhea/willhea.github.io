@@ -27,8 +27,8 @@ LINKS = (
 SOCIAL = (
     ("Linkedin", "https://www.linkedin.com/in/willhea/"),
     ("X", "https://x.com/WilliamHea"),
-    ("Bsky", "https://bsky.app/profile/willhea.com")
-    ("GitHub", "https://github.com/willhea"),
+    ("Bsky", "https://bsky.app/profile/willhea.com"),
+    ("GitHub", "https://github.com/willhea")
 )
 
 DEFAULT_PAGINATION = 10
