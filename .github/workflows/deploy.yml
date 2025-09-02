@@ -61,7 +61,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Files to preserve
-          PRESERVE_FILES=("README.md")  # add more files if needed
+          PRESERVE_FILES=("README.md" "CNAME")  # add more files if needed
 
           # Backup preserved files
           for f in "${PRESERVE_FILES[@]}"; do
@@ -75,6 +75,12 @@ jobs:
           for f in "${PRESERVE_FILES[@]}"; do
             [ -f "../$f" ] && cp "../$f" .
           done
+
+          # Ensure CNAME file exists (copy from source if needed)
+          if [ ! -f "CNAME" ]; then
+            cp ../CNAME . || echo "CNAME file not found in source, creating default"
+            echo "willhea.com" > CNAME
+          fi
 
           # Commit & push only if there are changes
           git add .
