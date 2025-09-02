@@ -51,8 +51,8 @@ jobs:
           git checkout -B main
 
           # Set Git identity locally
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
           # Files to preserve
           PRESERVE_FILES=("README.md")  # add more files if needed
