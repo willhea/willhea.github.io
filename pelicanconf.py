@@ -1,4 +1,4 @@
-from publishconf import DEFAULT_METADATA
+#Pelican config file
 
 AUTHOR = 'Will Hea'
 SITENAME = 'willhea.com'
