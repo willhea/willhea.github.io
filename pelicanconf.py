@@ -1,6 +1,5 @@
 from publishconf import DEFAULT_METADATA
 
-
 AUTHOR = 'Will Hea'
 SITENAME = 'willhea.com'
 SITEURL = ""
@@ -37,4 +36,3 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True # good for local dev if you enable it
-DEFAULT_METADATA = {"status": "draft"}  # must add "Status: published" to ship
