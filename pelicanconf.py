@@ -2,7 +2,7 @@
 import datetime
 
 AUTHOR = 'Will Hea'
-SITENAME = 'willhea.com'
+SITENAME = 'Will Hea'
 SITEURL = ""
 
 PATH = "content"
