@@ -7,3 +7,5 @@ Slug: test
 Summary: Test post
 
 This *is* a **test** blog post. 
+
+I added this line to test github actions.
