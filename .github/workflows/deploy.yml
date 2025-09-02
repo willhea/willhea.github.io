@@ -1,10 +1,9 @@
 name: Build and Deploy Pelican Site
 
-# Trigger on push to main **and** manually
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:   # <-- manual trigger
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -27,7 +26,7 @@ jobs:
       - name: Build site with Pelican
         run: pelican content -o output -s publishconf.py
 
-      - name: Deploy to public repo
+      - name: Deploy to public repo (only if changes)
         run: |
           cd output
           git init
@@ -35,6 +34,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote add origin https://x-access-token:${{ secrets.PUBLISH_TOKEN }}@github.com/willhea/willhea.github.io.git
           git checkout -b main
+          
+          # Add changes
           git add .
-          git commit -m "Deploy site"
-          git push --force origin main
+
+          # Only commit if there are changes
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Deploy site"
+            git push --force origin main
+          else
+            echo "No changes detected; skipping deploy."
+          fi
