@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Will Hea - Categories</title>
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Pelican" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./site.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/site.css">
     
     <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://willhea.goatcounter.com/count"
@@ -14,35 +14,38 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <h1 class="site-title"><a href="./">Will Hea</a></h1>
+        <h1 class="site-title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         <nav class="site-nav" aria-label="Primary">
           <ul>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
+            {% for p in pages|sort(attribute="title") %}
+            <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+            {% endfor %}
           </ul>
         </nav>
       </div>
     </header>
 
     <main class="container">
-    <h2>Categories on Will Hea</h2>
-    <ul>
-            <li><a href="./category/misc.html">misc</a> (1)</li>
-    </ul>
+      {% block content %}{% endblock %}
     </main>
 
     <footer class="container">
       <address>
-        &copy; 2025 Will Hea. Powered by 
+        &copy; {{ CURRENT_YEAR }} Will Hea. Powered by 
         <a href="https://getpelican.com/" target="_blank" rel="noopener noreferrer">Pelican</a> 
         and 
         <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>.
       </address>
       
       <!-- Social Links in Footer -->
+      {% if SOCIAL %}
       <div class="social-footer" aria-label="Social Media">
         <span class="social-label">Find me on:</span>
-        <a href="https://www.linkedin.com/in/willhea/" target="_blank" rel="noopener noreferrer" title="Linkedin">Linkedin</a>,         <a href="https://x.com/WilliamHea" target="_blank" rel="noopener noreferrer" title="X">X</a>,         <a href="https://bsky.app/profile/willhea.com" target="_blank" rel="noopener noreferrer" title="Bsky">Bsky</a>,         <a href="https://github.com/willhea" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a>      </div>
+        {% for name, url in SOCIAL %}
+        <a href="{{ url }}" target="_blank" rel="noopener noreferrer" title="{{ name }}">{{ name }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
     </footer>
   </body>
 </html>

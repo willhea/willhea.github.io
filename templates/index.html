@@ -1,46 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>{{ SITENAME }}</title>
-    <meta charset="utf-8" />
-    <meta name="generator" content="Pelican" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ SITEURL }}/site.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <h1 class="site-title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-        <nav class="site-nav" aria-label="Primary">
-          <ul>
-            {% for p in pages|sort(attribute="title") %}
-            <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-      </div>
-    </header>
+{% extends "base.html" %}
 
-    <main class="container">
-      <h2>All posts</h2>
-      {% for article in articles %}
-      <article>
-        <header>
-          <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title }}">{{ article.title }}</a></h2>
-        </header>
-        <section>{{ article.summary if article.summary else article.content }}</section>
-        <footer>
-          <p>Published: <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
-          <address>By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></address>
-        </footer>
-      </article>
-      {% endfor %}
-    </main>
+{% block title %}{{ SITENAME }}{% endblock %}
 
-    <footer class="container">
-      <address>
-        &copy; {{ CURRENT_YEAR }} Will Hea
-      </address>
-    </footer>
-  </body>
-</html>
+{% block content %}
+<h2>All posts</h2>
+{% for article in articles %}
+<article>
+  <header>
+    <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title }}">{{ article.title }}</a></h2>
+  </header>
+  <section>{{ article.summary if article.summary else article.content }}</section>
+  <footer>
+    <p>Published: <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
+    <address>By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></address>
+  </footer>
+</article>
+{% endfor %}
+{% endblock %}

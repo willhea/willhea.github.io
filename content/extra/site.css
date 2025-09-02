@@ -16,6 +16,12 @@ a:hover, a:focus { text-decoration: underline; }
 .site-header .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; }
 .site-header .site-nav a { display: inline-block; padding: 14px 0; color: #000; }
 
+/* Footer Social Links */
+.social-footer { margin-top: 16px; font-size: 0.9rem; color: #666; }
+.social-footer .social-label { margin-right: 8px; }
+.social-footer a { color: #00BFFF; }
+.social-footer a:hover, .social-footer a:focus { text-decoration: underline; }
+
 main, .content { padding: 24px 0; }
 article { padding: 12px 0; border-bottom: 1px solid #000; }
 article:last-child { border-bottom: none; margin-bottom: 24px; }
