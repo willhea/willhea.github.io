@@ -1,6 +1,6 @@
 # willhea.githu.io_private
 
-This is a private repository for my personal website willhea.com. It is used to generate static site content using pelican.
+This is a private repository for my personal website, willhea.com. It is used to generate static site content using pelican.
 
 The project has 2 repos, one public (site content) and one private (this repo):
 Public repo: https://github.com/willhea/willhea.github.io
