@@ -1,5 +1,5 @@
 ---
-title: Resume - Will Hea
+title: Resume
 ---
 
 # Professional Experience
