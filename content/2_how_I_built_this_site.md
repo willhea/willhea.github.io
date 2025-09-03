@@ -5,7 +5,7 @@ Modified:
 Status: draft
 Category: blog
 Tags: 
-Slug: why_pelican
+Slug: how_i_built_this_site
 Summary: Pelican Python static site generator
 --- 
 # How I built this site
@@ -41,9 +41,9 @@ I perused documentation and site examples and narrowed it down to Nikola and Pel
 # Building
 I love [Replit](https://replit.com/), but I want to build this site in a local environment to work on my coding skills and make it easier to maintain and work on offline. I travel often and frequently don't have strong wifi. I want to be able to write and work on the site at any time with or without an internet connection.
 
-This site works across two GitHub repos, one public and one private. The [public repo](https://github.com/willhea/willhea.github.io) holds the code for ths site. The private repo holds the markdown files, Pelican, and other backend code.
+For deployment, this site works across two GitHub repos, one public and one private. The [public repo](https://github.com/willhea/willhea.github.io) holds the code for this site. The private repo holds the markdown files, Pelican, and other backend code.
 
-When a commit is pushed to the main branch of the private repo it triggers a GitHub Action to run the code and push the outputs of the static site generator into the public repo. The [Pelican documentation](https://docs.getpelican.com/en/latest/tips.html) provides more detail. 
+When a commit is pushed to the main branch of the private repo, it triggers a GitHub Action to run the code and push the outputs of the static site generator into the public repo. The [Pelican documentation](https://docs.getpelican.com/en/latest/tips.html) provides more detail. 
 
 # Styling
 I adore simple black and white text and websites. It's one of the many reasons I keep coming back to [Notion](https://www.notion.com/). I block scripts and tracking on my browsers and convert any page I can into a simple reader. I also adore fast load times. I **hate** sites with auto-playing videos and other cruft.
