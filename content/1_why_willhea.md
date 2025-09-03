@@ -7,7 +7,6 @@ Tags:
 Slug: why_willhea
 Summary: I need a place to play and share my thoughts. 
 ---
-
 This website is a public space for my musings and projects. I love to write, and I am a prolific producer of internal documents, guides, and memos. However, I've been reluctant to share my thoughts publicly. I'm hoping this site will push me to do so more often, invite critique, and improve my skills. 
 
 # My Goals for This Site
