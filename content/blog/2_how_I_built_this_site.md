@@ -7,7 +7,7 @@ Tags:
 Slug: how_i_built_this_site
 Summary: Pelican Python static site generator.
 --- 
-In a [prior post]({filename}/1_why_willhea.md), I mentioned I wanted to create a personal site that was simple, low cost or free, easy to maintain, and relied on open source projects with a preference for Python. This post details the build of this site that meets all of those goals.
+In a [prior post]({filename}/blog/1_why_willhea.md), I mentioned I wanted to create a personal site that was simple, low cost or free, easy to maintain, and relied on open source projects with a preference for Python. This post details the build of this site that meets all of those goals.
 
 # My Goals
 My goals for the infrastructure for this site are: 

@@ -8,5 +8,4 @@ make html RELATIVE=1
 make devserver RELATIVE=1 
 
 # To Do: 
-1. Get the 404 html page working
 

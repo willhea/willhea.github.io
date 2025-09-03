@@ -14,4 +14,10 @@ Summary: One concise sentence (<= 160 chars).
 
 Write your article below. Keep paragraphs short. Use fenced code blocks for code.
 
+<!-- 
+Note: This template is in content/blog/ folder. 
+Posts in this folder automatically get Category: blog.
+You can change the category if you want different organization.
+-->
+
 

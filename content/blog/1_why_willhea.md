@@ -35,7 +35,7 @@ It was also overkill for my needs: posts were stored in Markdown and in a Postgr
 ## Back to Markdown
 After reviewing my Replit site for a final time, I realized that I need to write, I prefer writing in Markdown, and no amount of fancy code is going to replace me sitting down and typing. If I can solve the problem of writing, I can figure out everything else later. 
 
-To that end, I've built this site using the [Pelican](https://docs.getpelican.com/en/stable/index.html) static site generator. [This post]({filename}/2_how_I_built_this_site.md) provides more detail on how. 
+To that end, I've built this site using the [Pelican](https://docs.getpelican.com/en/stable/index.html) static site generator. [This post]({filename}/blog/2_how_I_built_this_site.md) provides more detail on how. 
 
 # What's Different This Time?
 I'm not a betting man, but if this has failed a few times before, why is it going to succeed this time? 
