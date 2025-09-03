@@ -8,4 +8,6 @@ I want to work on the most interesting problems, with the best people, all the t
 
 In my free time, I play ultimate frisbee, flyfish, and play Dungeons & Dragons with my friends.
 
+I don't earn a commission or referral from services or tools I recommend on this site. If I recommend them, it's because I like them and use them.
+
 I built this website using [Pelican](https://getpelican.com/) using [python](https://www.python.org/) and hosted on [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Here is the [github repo](https://github.com/willhea/willhea.github.io).
