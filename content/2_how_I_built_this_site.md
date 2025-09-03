@@ -25,16 +25,16 @@ It feels like cheating, but to find a solution, I prompted [Perplexity](https://
 
 Hosting: 
 - [GitHub Pages](https://docs.github.com/en/pages/quickstart)
+- [Hostinger](https://www.hostinger.com/1)
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
-- [Hostinger](https://www.hostinger.com/1)
 
 **GitHub Pages** immediately stood out to me by being free and one fewer service I need to setup and maintain. 
 
 Static Site Generator: 
-- [Pelican](https://docs.getpelican.com/en/latest/)
 - [MkDocs](https://www.mkdocs.org/)
 - [Nikola](https://getnikola.com/)
+- [Pelican](https://docs.getpelican.com/en/latest/)
 
 I perused documentation and site examples and narrowed it down to Nikola and Pelican. Both looked excellent (I may end up trying both in the future), but I went with **Pelican** because I liked the [GitHub Pages documentation](https://docs.getpelican.com/en/latest/tips.html) and the example sites looked more than good enough for my needs. 
 
@@ -46,7 +46,7 @@ This site works across two GitHub repos, one public and one private. The [public
 When a commit is pushed to the main branch of the private repo it triggers a GitHub Action to run the code and push the outputs of the static site generator into the public repo. The [Pelican documentation](https://docs.getpelican.com/en/latest/tips.html) provides more detail. 
 
 # Styling
-I love simple black and white text and websites. It's one of the many reasons I love using Notion and why I continuously come back to Notion for work. I block scripts and tracking on my browsers and convert any page I can into a simple reader. I also adore fast load times. I **hate** sites with auto-playing videos and other cruft.
+I adore simple black and white text and websites. It's one of the many reasons I keep coming back to [Notion](https://www.notion.com/). I block scripts and tracking on my browsers and convert any page I can into a simple reader. I also adore fast load times. I **hate** sites with auto-playing videos and other cruft.
 
 I used the default simple theme and made some CSS modifications with the help of AI. The current styling is similar to what I built on my homebrew Replit site. The look and feel is heavily inspired by [Matt Leaverton's personal site](https://www.mattleaverton.com/) that also runs on Pelican. Matt, we've never met, but I like your style. 
 
