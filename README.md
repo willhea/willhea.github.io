@@ -1,4 +1,4 @@
-This is a public repo for my personal site [willhea.com](https://willhea.com/). 
+This is a public repo for my personal site, [willhea.com](https://willhea.com/). 
 
 There are many like it, but this one is mine. 
 
