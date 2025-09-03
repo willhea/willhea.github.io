@@ -3,7 +3,7 @@ Title: How I Built This Site
 Date: 2025-09-04
 Modified: 
 Status: draft
-Category: blog
+Category: 
 Tags: 
 Slug: how_i_built_this_site
 Summary: Pelican Python static site generator

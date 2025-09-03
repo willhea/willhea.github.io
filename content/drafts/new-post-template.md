@@ -3,7 +3,7 @@ Title: {{ TITLE }}
 Date: {{ DATE }} 10:00
 Modified: {{ DATE }} 10:00
 Status: draft
-Category: blog
+Category: 
 Tags: 
 Slug: {{ SLUG }}
 Summary: One concise sentence (<= 160 chars).
