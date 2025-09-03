@@ -1,8 +1,8 @@
 ---
 Title: Why willhea.com?
-Date: 2025-09-04
+Date: 2025-09-03
 Status: published
-Category:
+Category: blog
 Tags: 
 Slug: why_willhea
 Summary: I need a place to play and share my thoughts. 

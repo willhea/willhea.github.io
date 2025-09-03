@@ -1,8 +1,8 @@
 ---
 Title: How I Built This Site
-Date: 2025-09-04
+Date: 2025-09-03
 Status: published
-Category:
+Category: blog
 Tags: 
 Slug: how_i_built_this_site
 Summary: Pelican Python static site generator.
