@@ -60,4 +60,4 @@ Google Analytics is interesting because it would be a great opportunity to play 
 
 I went with GoatCounter because it's free for my use case and [dead simple to install](https://www.goatcounter.com/help/start) and maintain. 
 
-I like the site so far and it's been extremely easy to update and maintain. It's inspired me to write, so it's already doing its job!
+I like the setup so far and it's been extremely easy to update and maintain. It's inspired me to write, so it's already doing its job!
