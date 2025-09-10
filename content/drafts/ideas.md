@@ -1,7 +1,7 @@
 # List of Ideas
 
 - Why I started Skeptical Labs
-- Set up for a single person LLC (have a backp bank account)
+- Set up for a single person LLC (have a backup bank account)
 - Post mortem on Skeptical Consulting
 - High of working for Operation Warpspeed and low of the aftermath
 - Power users are opinionated users - You should have an opinion about how work gets done
