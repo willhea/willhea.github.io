@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Will Hea - blog</title><link href="https://willhea.github.io/" rel="alternate"/><link href="https://willhea.github.io/feeds/blog.atom.xml" rel="self"/><id>https://willhea.github.io/</id><updated>2025-09-10T00:00:00-04:00</updated><entry><title>Skeptical Labs LLC Goals, Structure, &amp; Principles</title><link href="https://willhea.github.io/skeptical_labs_goals.html" rel="alternate"/><published>2025-09-10T00:00:00-04:00</published><updated>2025-09-10T00:00:00-04:00</updated><author><name>Will Hea</name></author><id>tag:willhea.github.io,2025-09-10:/skeptical_labs_goals.html</id><summary type="html">&lt;p&gt;Goals and operating principles for Skeptical Labs LLC.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;I've written guides on how I structured my prior LLCs. This is my latest version with the services and structure I use and recommend for Skeptical Labs, LLC. This is not advice. Structure your business to fit your needs.&lt;/em&gt;&lt;/p&gt;
-&lt;h1&gt;Background&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Will Hea - blog</title><link href="https://willhea.github.io/" rel="alternate"/><link href="https://willhea.github.io/feeds/blog.atom.xml" rel="self"/><id>https://willhea.github.io/</id><updated>2025-09-16T00:00:00-04:00</updated><entry><title>Your timeline can't be longer than your runway</title><link href="https://willhea.github.io/timeline_vs_runway.html" rel="alternate"/><published>2025-09-16T00:00:00-04:00</published><updated>2025-09-16T00:00:00-04:00</updated><author><name>Will Hea</name></author><id>tag:willhea.github.io,2025-09-16:/timeline_vs_runway.html</id><summary type="html">&lt;p&gt;Don't plan beyond your runway.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;If the default is death, stay alive.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I've spent half of my career and most of the past five years working at venture-capital-backed startups. The companies are not profitable. They rely on infusions from investors to keep going. Success is building a business model that eventually escapes the unprofitability trap, rewarding investors and employees. Until that happens, the business is slowly (or quickly!) dying, burning its reserves (runway) toward zero.&lt;/p&gt;
+&lt;h2&gt;The default is death&lt;/h2&gt;
+&lt;p&gt;Working at an unprofitable startup is uniquely different from other businesses in that the default is death. Every day, the business draws closer to its end. Business as usual is unacceptable because it results in failure. As a company and employee, you are forced to accept more risk to stay alive.&lt;/p&gt;
+&lt;p&gt;This environment is terrifying and, if not managed, a source of existential dread as the &lt;a href="https://en.wikipedia.org/wiki/Damocles"&gt;Sword of Damocles&lt;/a&gt; draws ever nearer. It's also exciting! You have to take risks to survive, so a well-run startup will operate faster and more aggressively than a profitable business.&lt;/p&gt;
+&lt;h2&gt;Cash vs. Time&lt;/h2&gt;
+&lt;p&gt;The two most important resources in a startup are cash and time—and they’re tightly coupled. A company with $1.2M in the bank burning $100k/month has 12 months of runway. Cut burn to $50k/month and runway becomes 24 months. Increase revenue by $50k/month and you get the same result. The game is extending runway until you reach profitability. You won’t grow with $0 in expenses, but you’ll die quickly if you spend your reserves without results; balancing cost and time is the core prioritization tension.&lt;/p&gt;
+&lt;h2&gt;Prioritize Against Runway&lt;/h2&gt;
+&lt;p&gt;So how do you prioritize at an unprofitable startup? The general rule I follow is this: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don't work on anything with a timeline longer than your runway UNLESS it unlocks the next fundraise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In other words, if you will die before you get the benefit and it doesn't help your next fundraise, don't do it. &lt;/p&gt;
+&lt;p&gt;Does this mean that all long-term projects should be abandoned? No. But the vast majority of everyone's time and resources should be hyper-focused on what needs to be accomplished to enable the next fundraise.&lt;/p&gt;
+&lt;p&gt;While this advice may seem obvious, it can be difficult to apply in day-to-day operations. Every startup I've worked at has struggled with these decisions. Consider the following questions for a company with 6 months of runway:
+- Should we hire a marketing guru who will help us generate more revenue 12 months from now? Answer: Don't hire.
+- Should we prepay for next year's software spend to lock in a discount? Answer: Don't prepay.
+- Should we focus on building a new product that won't earn revenue for 12 months, or growing revenue from the current product right now? Answer: Short-term revenue (you could argue that progress on a new product could help with fundraising now).&lt;/p&gt;
+&lt;p&gt;In a vacuum, each alternative seems reasonable. There is work that needs to get done so we need to hire employees. We can save money next year by prepaying. But within the context of runway, these are all decisions that hurt us in the short term with little or no guaranteed benefit. &lt;/p&gt;
+&lt;p&gt;I purchased Anrok while I was Director of Operations at Phin Security and I loved it (&lt;a href="https://www.anrok.com/resources/partner-case-study-phin-security"&gt;case study here&lt;/a&gt;). What isn’t in that case study: I deliberately delayed buying any sales tax solution until we completed a fundraise and extended our runway. Sales tax compliance, while important. It didn’t contribute to the next raise and would have been, at best, a distraction and, at worst, a drain on scarce resources. Once the fundraise closed, our runway and expectations expanded to include compliance and I moved ahead.&lt;/p&gt;
+&lt;p&gt;Good decisions made at the wrong time are bad decisions. At a startup, every choice must be evaluated in the context of revenue, profitability, and runway. If your work doesn’t extend runway or unlock the next fundraise, you’re working on the wrong thing. Stop, reflect, and reprioritize.&lt;/p&gt;</content><category term="blog"/><category term="startups"/><category term="fundraising"/><category term="prioritization"/><category term="runway"/><category term="operations"/></entry><entry><title>Skeptical Labs LLC Goals, Structure, &amp; Principles</title><link href="https://willhea.github.io/skeptical_labs_goals.html" rel="alternate"/><published>2025-09-10T00:00:00-04:00</published><updated>2025-09-10T00:00:00-04:00</updated><author><name>Will Hea</name></author><id>tag:willhea.github.io,2025-09-10:/skeptical_labs_goals.html</id><summary type="html">&lt;p&gt;Goals and operating principles for Skeptical Labs LLC.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;I've written guides on how I structured my prior LLCs. This is my latest version with the services and structure I use and recommend for Skeptical Labs, LLC. This is not advice. Structure your business to fit your needs.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
 &lt;p&gt;I’ve started Skeptical Labs, LLC as a continuation of the spirit of Skeptical Consulting, LLC. I seek to:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Solve the most interesting problems&lt;br&gt;
@@ -27,9 +47,9 @@ All the time  &lt;/p&gt;
 &lt;li&gt;Operate as inexpensively and efficiently as possible to allow for years with little or no side income&lt;/li&gt;
 &lt;li&gt;Maintain a Solo 401k in perpetuity&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1&gt;Operating Principles and Rules&lt;/h1&gt;
+&lt;h2&gt;Operating Principles and Rules&lt;/h2&gt;
 &lt;p&gt;To meet the goals, the company shall abide by the following principles and rules.&lt;/p&gt;
-&lt;h2&gt;Principle 1: Protect Personal Assets First&lt;/h2&gt;
+&lt;h3&gt;Principle 1: Protect Personal Assets First&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Skeptical Labs may not take actions that risk personal assets in favor of business assets. This means: &lt;ol&gt;
 &lt;li&gt;Use a &lt;a href="https://www.northwestregisteredagent.com/"&gt;registered agent&lt;/a&gt; for filings and public information. &lt;/li&gt;
@@ -38,7 +58,7 @@ All the time  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Skeptical Labs must operate with minimum required permits, insurance, and other requirements.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Principle 2: Optimize for Permanent Operation&lt;/h2&gt;
+&lt;h3&gt;Principle 2: Optimize for Permanent Operation&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Skeptical Labs shall operate as if it will continue to run for 30 - 40 years.&lt;/li&gt;
 &lt;li&gt;Skeptical Labs shall be organized simply and inexpensively through a small number of stable and reliable vendors: &lt;ol&gt;
@@ -54,7 +74,7 @@ All the time  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Skeptical Labs shall not file as an S Corp. If the business is successful enough, I will create a separate LLC and migrate applicable contracts to that LLC. &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Principle 3: Keep It Simple (KISS)&lt;/h2&gt;
+&lt;h3&gt;Principle 3: Keep It Simple (KISS)&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;No more than 80% billable hours (32 hours per week). Reserve 20% of time for business development.&lt;/li&gt;
 &lt;li&gt;Use vendors for their assigned roles. Even if it is slower and more expensive, the business will be more stable, reliable, and consistent. &lt;/li&gt;
@@ -63,7 +83,7 @@ All the time  &lt;/p&gt;
 &lt;li&gt;No employees. Skeptical Labs shall never have employees and will forever remain a single member LLC.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I want to avoid overcomplicated structures and costs that slowed down Skeptical Consulting. I believe this structure is simple, lightweight, easy to maintain, and easy to upgrade if and when it is necessary. When I find a compelling business model, I'll form a new company. &lt;/p&gt;</content><category term="blog"/><category term="skeptical_labs"/></entry><entry><title>How I Built This Site</title><link href="https://willhea.github.io/how_i_built_this_site.html" rel="alternate"/><published>2025-09-03T00:00:00-04:00</published><updated>2025-09-03T00:00:00-04:00</updated><author><name>Will Hea</name></author><id>tag:willhea.github.io,2025-09-03:/how_i_built_this_site.html</id><summary type="html">&lt;p&gt;Pelican Python static site generator.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In a &lt;a href="https://willhea.github.io/why_willhea.html"&gt;prior post&lt;/a&gt;, I mentioned I wanted to create a personal site that was simple, low cost or free, easy to maintain, and relied on open source projects with a preference for Python. This post details the build of this site that meets all of those goals.&lt;/p&gt;
-&lt;h1&gt;My Goals&lt;/h1&gt;
+&lt;h2&gt;My Goals&lt;/h2&gt;
 &lt;p&gt;My goals for the infrastructure for this site are: 
 1. Write content and posts in Markdown format
 2. Create a static site from the Markdown files that loads quickly
@@ -71,7 +91,7 @@ All the time  &lt;/p&gt;
 4. Use cheap/free hosting
 5. Privacy friendly tracking &amp;amp; analytics
 6. Customize the site in Python&lt;/p&gt;
-&lt;h1&gt;Selecting a Build&lt;/h1&gt;
+&lt;h2&gt;Selecting a Build&lt;/h2&gt;
 &lt;p&gt;It feels like cheating, but to find a solution, I prompted &lt;a href="https://www.perplexity.ai/"&gt;Perplexity&lt;/a&gt;. It recommended: &lt;/p&gt;
 &lt;p&gt;Hosting: 
 - &lt;a href="https://docs.github.com/en/pages/quickstart"&gt;GitHub Pages&lt;/a&gt;
@@ -84,14 +104,14 @@ All the time  &lt;/p&gt;
 - &lt;a href="https://getnikola.com/"&gt;Nikola&lt;/a&gt;
 - &lt;a href="https://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I perused documentation and site examples and narrowed it down to Nikola and Pelican. Both looked excellent (I may end up trying both in the future), but I went with &lt;strong&gt;Pelican&lt;/strong&gt; because I liked the &lt;a href="https://docs.getpelican.com/en/latest/tips.html"&gt;GitHub Pages documentation&lt;/a&gt; and the example sites looked more than good enough for my needs. &lt;/p&gt;
-&lt;h1&gt;Building&lt;/h1&gt;
+&lt;h2&gt;Building&lt;/h2&gt;
 &lt;p&gt;I love &lt;a href="https://replit.com/"&gt;Replit&lt;/a&gt;, but I want to build this site in a local environment to work on my coding skills and make it easier to maintain and work on offline. I travel often and frequently don't have strong wifi. I want to be able to write and work on the site at any time with or without an internet connection.&lt;/p&gt;
 &lt;p&gt;For deployment, this site works across two GitHub repos, one public and one private. The &lt;a href="https://github.com/willhea/willhea.github.io"&gt;public repo&lt;/a&gt; holds the code for this site. The private repo holds the markdown files, Pelican, and other backend code.&lt;/p&gt;
 &lt;p&gt;When a commit is pushed to the main branch of the private repo, it triggers a GitHub Action to run the code and push the outputs of the static site generator into the public repo. The &lt;a href="https://docs.getpelican.com/en/latest/tips.html"&gt;Pelican documentation&lt;/a&gt; provides more detail. &lt;/p&gt;
-&lt;h1&gt;Styling&lt;/h1&gt;
+&lt;h2&gt;Styling&lt;/h2&gt;
 &lt;p&gt;I adore simple black and white text and websites. It's one of the many reasons I keep coming back to &lt;a href="https://www.notion.com/"&gt;Notion&lt;/a&gt;. I block scripts and tracking on my browsers and convert any page I can into a simple reader. I also adore fast load times. I &lt;strong&gt;hate&lt;/strong&gt; sites with auto-playing videos and other cruft.&lt;/p&gt;
 &lt;p&gt;I used the default simple theme and made some CSS modifications with the help of AI. The current styling is similar to what I built on my homebrew Replit site. The look and feel is heavily inspired by &lt;a href="https://www.mattleaverton.com/"&gt;Matt Leaverton's personal site&lt;/a&gt; that also runs on Pelican. Matt, we've never met, but I like your style. &lt;/p&gt;
-&lt;h1&gt;Tracking &amp;amp; Metrics&lt;/h1&gt;
+&lt;h2&gt;Tracking &amp;amp; Metrics&lt;/h2&gt;
 &lt;p&gt;I'm not writing this blog for pageviews. Still, it's useful to know who accesses this site, how often, and what they view. I don't need detailed information on every user. The three primary options I considered were: 
 1. &lt;a href="https://www.goatcounter.com/"&gt;GoatCounter&lt;/a&gt;
 2. &lt;a href="https://plausible.io/"&gt;Plausible Analytics&lt;/a&gt;
@@ -99,27 +119,27 @@ All the time  &lt;/p&gt;
 &lt;p&gt;Google Analytics is interesting because it would be a great opportunity to play with a tool I would use elsewhere. At the same time, I favor privacy, I think Google's tracking is excessive and invasive, and I block those trackers as a user in my own browsing. If it would annoy me, I'm not going to do it to my users. &lt;/p&gt;
 &lt;p&gt;I went with GoatCounter because it's free for my use case and &lt;a href="https://www.goatcounter.com/help/start"&gt;dead simple to install&lt;/a&gt; and maintain. &lt;/p&gt;
 &lt;p&gt;I like the setup so far and it's been extremely easy to update and maintain. It's inspired me to write, so it's already doing its job!&lt;/p&gt;</content><category term="blog"/></entry><entry><title>Why willhea.com?</title><link href="https://willhea.github.io/why_willhea.html" rel="alternate"/><published>2025-09-03T00:00:00-04:00</published><updated>2025-09-03T00:00:00-04:00</updated><author><name>Will Hea</name></author><id>tag:willhea.github.io,2025-09-03:/why_willhea.html</id><summary type="html">&lt;p&gt;I need a place to play and share my thoughts.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This website is a public space for my musings and projects. I love to write, and I am a prolific producer of internal documents, guides, and memos. However, I've been reluctant to share my thoughts publicly. I'm hoping this site will push me to do so more often, invite critique, and improve my skills. &lt;/p&gt;
-&lt;h1&gt;My Goals for This Site&lt;/h1&gt;
+&lt;h2&gt;My Goals for This Site&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Have Fun&lt;/strong&gt;: I have a lot of passions and a lot of opinions. I want this site to be me and I want to have fun with it. If I want to write about D&amp;amp;D or &lt;a href="https://store.steampowered.com/app/1942280/Brotato/"&gt;Brotato&lt;/a&gt;, I will. &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Write and Think Better&lt;/strong&gt;: I'm a private person and I think that's often a good thing. At the same time, it can limit my ability to learn and interact with others. I want to create an obligation to share publicly, receive criticism, and grow. &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Make New Connections&lt;/strong&gt;: When I get bored, I like to read  &lt;a href="https://lobste.rs/"&gt;lobste.rs&lt;/a&gt;. Many of the posts come from personal sites and I follow the authors from there. I'm a peculiar person, I'd like to meet other peculiar people.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1&gt;Prior Attempts&lt;/h1&gt;
+&lt;h2&gt;Prior Attempts&lt;/h2&gt;
 &lt;p&gt;If history is any indication, I'll probably give up, but maybe not! I think this is my 3rd or 4th version of a personal website. Hopefully this one will stick. Here's what happened with the others.&lt;/p&gt;
-&lt;h2&gt;financeidiot.com&lt;/h2&gt;
+&lt;h3&gt;financeidiot.com&lt;/h3&gt;
 &lt;p&gt;My first personal website was financeidiot.com (no longer active). I wrote a few posts there when I was into the &lt;a href="https://en.wikipedia.org/wiki/FIRE_movement"&gt;financial indepence retire early (FIRE) movement&lt;/a&gt;. I was interested in FIRE, but I felt insecure posting about financial topics (hence the self-deprecating name) and after 2-3 posts, I didn't have anything new to say. A financial strategy that boils down to: (1) high income, (2) low expenses, (3) low-cost index funds, and (4) waiting doesn't require regular updates. The &lt;a href="https://www.madfientist.com/"&gt;Mad Fientist&lt;/a&gt; and &lt;a href="https://thefinancebuff.com/"&gt;Finance Buff&lt;/a&gt; have already written what I would say better than I could. &lt;/p&gt;
-&lt;h2&gt;skepticalconsulting.com&lt;/h2&gt;
+&lt;h3&gt;skepticalconsulting.com&lt;/h3&gt;
 &lt;p&gt;For a few weeks, I tried to start writing at skepticalconsulting.com, but I gave up almost immediately. The intent was to drum up business for Skeptical Consulting, but I didn't have anything to say other than, "I would like your business, please." Other demands in the business took up my time and I lost interest in public writing entirely. &lt;/p&gt;
-&lt;h2&gt;Vibe-coded willhea.com&lt;/h2&gt;
+&lt;h3&gt;Vibe-coded willhea.com&lt;/h3&gt;
 &lt;p&gt;After financeidiot and Skeptical Consulting, I lost interest in having a public presence until I started sharing guides and standard operating procedures I had written with friends through Notion public pages. I wished I had a public place to share that documentation and while sharing Notion can be effective, it did not have the same feeling of commitment as publishing on a website. &lt;/p&gt;
 &lt;p&gt;Around the same time, I took a strong interest in &lt;a href="https://replit.com/"&gt;Replit&lt;/a&gt; and Python. I completed the &lt;a href="https://blog.replit.com/100-days-of-code"&gt;Replit 100 Days of code&lt;/a&gt; Python course in full and had a blast! Part of the course required using Flask to setup simple Python websites and when I upgraded to the Replit Core plan, I had a lot of free credits leftover for hosting. &lt;/p&gt;
 &lt;p&gt;I bought the domain name and vibe-coded willhea.com 3 different ways in Replit. I knew I wanted to write in Notion or as Markdown files because that format has always felt easiest to write in. After a few days in Replit, the final version looked exactly how I wanted! &lt;/p&gt;
 &lt;p&gt;It was also overkill for my needs: posts were stored in Markdown and in a PostgreSQL database. There was an admin page to view analytics, an editing page for adding posts, and a resume editor. The problem was that I didn't use it for anything. I wasn't writing and it was an endless set of tweaks to make a perfect website with... nothing in it. &lt;/p&gt;
-&lt;h2&gt;Back to Markdown&lt;/h2&gt;
+&lt;h3&gt;Back to Markdown&lt;/h3&gt;
 &lt;p&gt;After reviewing my Replit site for a final time, I realized that I need to write, I prefer writing in Markdown, and no amount of fancy code is going to replace me sitting down and typing. If I can solve the problem of writing, I can figure out everything else later. &lt;/p&gt;
 &lt;p&gt;To that end, I've built this site using the &lt;a href="https://docs.getpelican.com/en/stable/index.html"&gt;Pelican&lt;/a&gt; static site generator. &lt;a href="https://willhea.github.io/how_i_built_this_site.html"&gt;This post&lt;/a&gt; provides more detail on how. &lt;/p&gt;
-&lt;h1&gt;What's Different This Time?&lt;/h1&gt;
+&lt;h2&gt;What's Different This Time?&lt;/h2&gt;
 &lt;p&gt;I'm not a betting man, but if this has failed a few times before, why is it going to succeed this time? &lt;/p&gt;
 &lt;p&gt;First, it probably won't. Second, I think this time might be different for three reasons:
 1. &lt;strong&gt;Low Pressure&lt;/strong&gt;: If no one reads this site, I'm ok with that. This one is for me. 
