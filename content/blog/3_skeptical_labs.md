@@ -9,7 +9,7 @@ Summary: Goals and operating principles for Skeptical Labs LLC.
 ---
 *I've written guides on how I structured my prior LLCs. This is my latest version with the services and structure I use and recommend for Skeptical Labs, LLC. This is not advice. Structure your business to fit your needs.*
 
-# Background
+## Background
 I’ve started Skeptical Labs, LLC as a continuation of the spirit of Skeptical Consulting, LLC. I seek to:
 
 > Solve the most interesting problems  
@@ -39,16 +39,16 @@ I need a permanent, single member LLC to perform these functions:
 3. Operate as inexpensively and efficiently as possible to allow for years with little or no side income
 4. Maintain a Solo 401k in perpetuity
 
-# Operating Principles and Rules
+## Operating Principles and Rules
  To meet the goals, the company shall abide by the following principles and rules.
 
-## Principle 1: Protect Personal Assets First
+### Principle 1: Protect Personal Assets First
 1. Skeptical Labs may not take actions that risk personal assets in favor of business assets. This means: 
     1. Use a [registered agent](https://www.northwestregisteredagent.com/) for filings and public information. 
     2. Separate personal vs. business assets (financial accounts, document storage, etc.)
 2. Skeptical Labs must operate with minimum required permits, insurance, and other requirements.
 
-## Principle 2: Optimize for Permanent Operation
+### Principle 2: Optimize for Permanent Operation
 1. Skeptical Labs shall operate as if it will continue to run for 30 - 40 years.
 2. Skeptical Labs shall be organized simply and inexpensively through a small number of stable and reliable vendors: 
     1. Registered Agent ([Northwest Registered Agent](https://www.northwestregisteredagent.com/)): Annual filings, maintain privacy. 
@@ -61,7 +61,7 @@ I need a permanent, single member LLC to perform these functions:
     8. Accounting (Spreadsheet with upgrade to [Quickbooks Simple Start](https://quickbooks.intuit.com/online/simple-start/) when needed): Track expenses and income.
 3. Skeptical Labs shall not file as an S Corp. If the business is successful enough, I will create a separate LLC and migrate applicable contracts to that LLC. 
 
-## Principle 3: Keep It Simple (KISS)
+### Principle 3: Keep It Simple (KISS)
 1. No more than 80% billable hours (32 hours per week). Reserve 20% of time for business development.
 2. Use vendors for their assigned roles. Even if it is slower and more expensive, the business will be more stable, reliable, and consistent. 
 3. Use simple and reliable contract structures, such as flat fee or hourly contracts. 

@@ -9,13 +9,20 @@
 
 Business scenarios
 - Why it was a good decision to leave the free trial payment plan in place at Phin. Bottlenecks, letting experiments run. 
-- Overhiring - Controlant and Phin
+- Overhiring - Controlant and Phin, permanent solution to temporary problem
 - Have you considered fraud? - It's common to be lied to and explains a lot of problems at work, underrated in most frameworks
 - Just use Kanban
 - Your timeline shouldn't be longer than your runway
 - PPP loan saved my business
 - Graceful exit - Everyone is looking for a graceful exit
 - Leave money on the table
+- Stewardship vs. ownership
+- If you take the money, you take the expectations too
+- Most of success is saying no (free up time for good work)
+- Theoretically, we're all billionares: https://www.youtube.com/watch?v=BzAdXyPYKQo
+- Lead time and lag indicators (example, why are you hiring for someone who won't affect the business until next year?)
+- Young people shouldn't work at startups (don't make it your first job, startups reward experience and ability)
+- Pair risk with attention, barbell, safety in mainstream (you should take fewer risks by default and pair your risk with your attention. If it matters, it matters)
 
 
 Side Hustles
