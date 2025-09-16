@@ -80,6 +80,14 @@ Slug: short-hyphenated
 Summary: One concise sentence (<= 160 chars).
 ```
 
+### Heading usage and CSS
+
+- Pelican reserves the article/page title for the template's `<h1>`.
+- In Markdown content, write headings naturally (use `##` for section headings, `###` for subsections, etc.).
+- The custom stylesheet `site.css` keeps browser-default heading sizes; it no longer remaps `h1`/`h2` inside articles.
+- The only override is the article title (`article header h1`) which is slightly larger for emphasis.
+- If you previously compensated in Markdown due to CSS mapping, you can now use standard Markdown heading levels.
+
 ## AI collaboration guidelines
 
 - Do:
