@@ -1,4 +1,4 @@
-/* Black & white minimalist styling inspired by willhea.com */
+/* Minimal, Pelican-friendly base styles. Keep headings close to browser defaults. */
 :root { color-scheme: light dark; }
 * { box-sizing: border-box; }
 html { font-size: 16px; }
@@ -9,59 +9,14 @@ a:hover, a:focus { text-decoration: underline; }
 
 .container { max-width: 920px; margin: 0 auto; padding: 0 16px; }
 
-/* Header styling - more specific selectors */
-.site-header { 
-  border-bottom: 2px solid #000; 
-  background: #fff; 
-  position: sticky; 
-  top: 0; 
-  z-index: 10; 
-  padding: 0;
-}
-
-.site-header .container { 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 0 16px;
-}
-
-.site-header .site-title { 
-  font-size: 1.25rem; 
-  margin: 0; 
-  flex-shrink: 0;
-}
-
-.site-header .site-title a { 
-  display: inline-block; 
-  padding: 14px 0; 
-  color: #000; 
-}
-
-.site-header .site-nav { 
-  margin-left: auto; 
-  flex-shrink: 0;
-}
-
-.site-header .site-nav ul { 
-  list-style: none; 
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
-  gap: 16px; 
-}
-
-.site-header .site-nav li { 
-  margin: 0; 
-  padding: 0; 
-}
-
-.site-header .site-nav a { 
-  display: inline-block; 
-  padding: 14px 0; 
-  color: #000; 
-  font-weight: normal;
-}
+/* Header */
+.site-header { border-bottom: 1px solid #000; background: #fff; position: sticky; top: 0; z-index: 10; padding: 0; }
+.site-header .container { display: flex; justify-content: space-between; align-items: center; padding: 0 16px; }
+.site-header .site-title { font-size: 1.5rem; margin: 0; }
+.site-header .site-title a { display: inline-block; padding: 14px 0; color: #000; }
+.site-header .site-nav { margin-left: auto; }
+.site-header .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; }
+.site-header .site-nav a { display: inline-block; padding: 14px 0; color: #000; }
 
 /* Footer Social Links */
 .social-footer { margin-top: 16px; font-size: 0.9rem; color: #666; }
@@ -72,44 +27,22 @@ a:hover, a:focus { text-decoration: underline; }
 main, .content { padding: 24px 0; }
 article { padding: 12px 0; border-bottom: 1px solid #000; }
 article:last-child { border-bottom: none; margin-bottom: 24px; }
-/* Heading hierarchy */
-h1 { font-size: 1.5rem; margin: 0 0 16px; font-weight: bold; }
-h2 { font-size: 1.25rem; margin: 24px 0 12px; font-weight: bold; }
-h3 { font-size: 1.1rem; margin: 20px 0 8px; font-weight: bold; }
-h4, h5, h6 { font-size: 1rem; margin: 16px 0 6px; font-weight: bold; }
 
-/* Article specific heading overrides */
-article header h1 { 
-  margin: 0 0 6px; 
-  font-size: 1.75rem; /* Make article title larger than content headings */
-  font-weight: bold;
-}
+/* Headings: keep native scale; only adjust margins for rhythm */
+h1 { margin: 0 0 0.67em; }
+h2 { margin: 1.2em 0 0.6em; }
+h3 { margin: 1em 0 0.5em; }
+h4, h5, h6 { margin: 0.8em 0 0.4em; }
 
-/* Content headings within articles should be smaller than the article title */
-article section h1 { 
-  font-size: 1.25rem; /* Same as h2, since this is the first content heading */
-  margin: 24px 0 12px;
-}
-article section h2 { 
-  font-size: 1.1rem; /* Same as h3 */
-  margin: 20px 0 8px;
-}
-article section h3 { 
-  font-size: 1rem; /* Same as h4 */
-  margin: 16px 0 6px;
-}
+/* Article title can be slightly larger but do not remap content headings */
+article header h1 { margin: 0 0 0.5em; font-size: 2rem; font-weight: 700; }
+
 article footer { font-size: 0.9rem; color: #111; }
 
-footer { border-top: 2px solid #000; padding: 32px 0 24px 0; color: #111; }
+footer { border-top: 1px solid #000; padding: 32px 0 24px 0; color: #111; }
 footer address { margin: 0; }
 
 @media (max-width: 640px) {
-  .site-header .container { 
-    flex-direction: column; 
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .site-header .site-nav { 
-    margin-left: 0; 
-  }
+  .site-header .container { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .site-header .site-nav { margin-left: 0; }
 }
