@@ -12,7 +12,7 @@ Summary: Don't plan beyond your runway.
 
 I've spent half of my career and most of the past five years working at venture-capital-backed startups. The companies are not profitable. They rely on infusions from investors to keep going. Success is building a business model that eventually escapes the unprofitability trap, rewarding investors and employees. Until that happens, the business is slowly (or quickly!) dying, burning its reserves (runway) toward zero.
 
-## The default is death
+## The Default is Death
 Working at an unprofitable startup is uniquely different from other businesses in that the default is death. Every day, the business draws closer to its end. Business as usual is unacceptable because it results in failure. As a company and employee, you are forced to accept more risk to stay alive.
 
 This environment is terrifying and, if not managed, a source of existential dread as the [Sword of Damocles](https://en.wikipedia.org/wiki/Damocles) draws ever nearer. It's also exciting! You have to take risks to survive, so a well-run startup will operate faster and more aggressively than a profitable business.
