@@ -18,7 +18,7 @@ Working at an unprofitable startup is uniquely different from other businesses i
 This environment is terrifying and, if not managed, a source of existential dread as the [Sword of Damocles](https://en.wikipedia.org/wiki/Damocles) draws ever nearer. It's also exciting! You have to take risks to survive, so a well-run startup will operate faster and more aggressively than a profitable business.
 
 ## Cash vs. Time
-The two most important resources in a startup are cash and time—and they’re tightly coupled. A company with $1.2M in the bank burning $100k/month has 12 months of runway. Cut burn to $50k/month and runway becomes 24 months. Increase revenue by $50k/month and you get the same result. The game is extending runway until you reach profitability. You won’t grow with $0 in expenses, but you’ll die quickly if you spend your reserves without results; balancing cost and time is the core prioritization tension.
+The two most important resources in a startup are cash and time. They’re so tightly coupled they're almost the same thing. A company with $1.2M in the bank burning $100k/month has 12 months of runway. Cut burn to $50k/month and runway becomes 24 months. Increase revenue by $50k/month and you get the same result. The game is extending runway until you reach profitability. You won’t grow with $0 in expenses, but you’ll die quickly if you spend your reserves without results; balancing cost and time is the core prioritization tension.
 
 ## Prioritize Against Runway
 So how do you prioritize at an unprofitable startup? The general rule I follow is this: 
