@@ -1,5 +1,5 @@
 ---
-Title: Your timeline can't be longer than your runway
+Title: Your timeline is shorter than your runway
 Date: 2025-09-16
 Status: published
 Category: blog
