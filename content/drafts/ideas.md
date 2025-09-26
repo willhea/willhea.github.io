@@ -50,3 +50,5 @@ Product Reviews
 - Why I love Notion but I am using it less
 - Using Omakub
 - Applying for unemployment in VA
+- Money market funds exist
+- Solo 401k

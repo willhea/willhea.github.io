@@ -1,4 +1,6 @@
-Start python virtual environment: source /home/willhea/Documents/willhea.com/private/willhea.github.io_private/env/bin/activate
+Start python virtual environment on Linux: source /home/willhea/Documents/willhea.com/private/willhea.github.io_private/env/bin/activate
+
+Start python virtual environment on Mac: source /Users/williamhea/Documents/Code/Websites/willhea.com/private/willhea.github.io_private/env/bin/activate
 
 Inspiration: https://www.mattleaverton.com/pages/about.html
 
