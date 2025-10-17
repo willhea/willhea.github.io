@@ -2,10 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Will Hea</title><link href="https://willhea.github.io/" rel="alternate"/><link href="https://willhea.github.io/feeds/all.atom.xml" rel="self"/><id>https://willhea.github.io/</id><updated>2025-10-17T00:00:00-04:00</updated><entry><title>Just use money market funds</title><link href="https://willhea.github.io/money-market.html" rel="alternate"/><published>2025-10-17T00:00:00-04:00</published><updated>2025-10-17T00:00:00-04:00</updated><author><name>Will Hea</name></author><id>tag:willhea.github.io,2025-10-17:/money-market.html</id><summary type="html">&lt;p&gt;Simple, easy, accessible cash with a fair return.&lt;/p&gt;</summary><content type="html">&lt;!-- Header image example: place file at content/images/&lt;file&gt; and reference as /images/&lt;file&gt; --&gt;
 &lt;!-- ![Alt text](/images/example.jpg) --&gt;
 
-&lt;div class="admonition note"&gt;
-&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
-&lt;p&gt;I am not a financial advisor and this is not financial advice. Invest at your own risk.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Note: I am not a financial advisor and this is not financial advice. Invest at your own risk.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Two years ago, I sat in a finance meeting walking through our “cash management strategy.” We were juggling multiple checking accounts, and anything not needed in the next 3 months went to an external advisor who split it across short-term CDs and Treasuries. Gross yield: ~3.5%. Advisor fee: 0.60%. Net: 2.9%.&lt;/p&gt;
 &lt;p&gt;At the same time, money market funds were earning ~4.5%.&lt;/p&gt;
 &lt;p&gt;Adding insult to injury, our cash was locked up and required careful handholding to manage liquidity. I suggested we just use a money market fund. After a short debate, we stuck with the plan, hoping the advisor would eventually beat the market. It wasn’t worth a battle over a few thousand dollars a year, but it still felt silly to tie up cash for a lower return when money market funds exist.&lt;/p&gt;
