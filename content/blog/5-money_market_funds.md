@@ -11,8 +11,7 @@ Summary: Simple, easy, accessible cash with a fair return.
 <!-- Header image example: place file at content/images/<file> and reference as /images/<file> -->
 <!-- ![Alt text](/images/example.jpg) -->
 
-!!! note "Important"
-    I am not a financial advisor and this is not financial advice. Invest at your own risk.
+*Note: I am not a financial advisor and this is not financial advice. Invest at your own risk.*
 
 Two years ago, I sat in a finance meeting walking through our “cash management strategy.” We were juggling multiple checking accounts, and anything not needed in the next 3 months went to an external advisor who split it across short-term CDs and Treasuries. Gross yield: ~3.5%. Advisor fee: 0.60%. Net: 2.9%.
 
