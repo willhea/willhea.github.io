@@ -1,9 +1,9 @@
 ---
 Title: Just use money market funds
 Date: 2025-10-17
-Status: draft
+Status: Published
 Category: blog
-Tags: 
+Tags: startups, operations, finance, treasury, liquidity, cash
 Slug: money-market
 Summary: Simple, easy, accessible cash with a fair return.
 ---

@@ -3,7 +3,7 @@ Title: How I Built This Site
 Date: 2025-09-03
 Status: published
 Category: blog
-Tags: 
+Tags: pelican, python, static_site, github_pages, privacy, goatcounter
 Slug: how_i_built_this_site
 Summary: Pelican Python static site generator.
 --- 

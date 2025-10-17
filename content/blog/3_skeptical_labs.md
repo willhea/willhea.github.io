@@ -3,7 +3,7 @@ Title: Skeptical Labs LLC Goals, Structure, & Principles
 Date: 2025-09-10
 Status: published
 Category: blog
-Tags: skeptical_labs
+Tags: startups, operations, llc, company_structure, principles, skeptical_labs
 Slug: skeptical_labs_goals
 Summary: Goals and operating principles for Skeptical Labs LLC.
 ---

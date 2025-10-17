@@ -3,7 +3,7 @@ Title: Why willhea.com?
 Date: 2025-09-03
 Status: published
 Category: blog
-Tags: 
+Tags: personal, writing, goals, introduction, meta
 Slug: why_willhea
 Summary: I need a place to play and share my thoughts. 
 ---
