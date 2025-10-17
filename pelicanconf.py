@@ -61,3 +61,20 @@ ARTICLE_EXCLUDES = ["drafts"]
 
 # Expose current year to templates (avoid using Jinja now())
 CURRENT_YEAR = datetime.date.today().year
+
+# Enable useful Markdown extensions, including admonitions, tables, and footnotes
+# - admonition: allows vanilla-style callouts with `!!! note`, `!!! info`, etc.
+# - tables: GitHub-like table syntax
+# - footnotes: compact source footnotes for table/source notes
+# - attr_list: optional, allows adding attributes/classes if ever needed
+MARKDOWN = {
+    "extensions": [
+        "markdown.extensions.admonition",
+        "markdown.extensions.tables",
+        "markdown.extensions.footnotes",
+        "markdown.extensions.attr_list",
+    ],
+    "extension_configs": {
+        # No special config needed; using defaults keeps this close to vanilla
+    },
+}
