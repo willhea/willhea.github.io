@@ -10,6 +10,9 @@ env/
 .env
 .env.*
 
+# uv - Python package manager
+# (uv.lock should be committed for reproducible installs)
+
 # Pelican output
 output/
 

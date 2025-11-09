@@ -9,13 +9,18 @@ This private repo builds the static site for https://willhea.com using Pelican. 
 ## Quickstart
 
 - Requirements:
-  - Python 3.13
+  - Python 3.13+
+  - [uv](https://docs.astral.sh/uv/) - Fast Python package manager
   - Make (for local commands)
 - Setup:
 ```bash
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+# Install uv if you haven't already (macOS/Linux):
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Clone and set up the project:
+git clone <repo-url>
+cd willhea.github.io_private
+uv sync
 ```
 
 ## Common commands
@@ -94,9 +99,13 @@ Summary: One concise sentence (<= 160 chars).
   - Focus edits in `content/**` unless asked to modify configuration.
   - Use Make targets (`make devserver`, `make publish`, `make github`).
   - Preserve minimal diffs and existing formatting.
+  - Update `pyproject.toml` (not `requirements.txt`) when adding or modifying dependencies.
+  - Run `uv sync` to update `uv.lock` after dependency changes.
 - Avoid:
   - Changing `publishconf.py` `SITEURL` without explicit instruction.
-  - Committing `env/` or `output/`.
+  - Committing `env/`, `.venv/`, or `output/`.
+  - Editing `uv.lock` directly (let `uv sync` manage it).
+  - Using `pip` directly (all dependencies go through uv).
 - See `.cursor/rules/` for detailed project- and Pelican-specific rules.
 
 ## How to run and expected outputs

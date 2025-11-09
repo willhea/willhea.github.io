@@ -14,4 +14,5 @@ alwaysApply: true
   - Provide a summary of changes suitable for AI agents and future contributors (e.g. notes on assumptions, decisions, and trade-offs).  
 - Documentation must include **how to run** (commands), **expected outputs**, and at least one **test or example**.  
 - If unsure of formatting, prefer the **Google Python Style Guide** docstring format.  
-- Update requirements.txt when new packages are installed
+- Update `pyproject.toml` when new packages are installed (this project uses uv for dependency management)
+- Run `uv sync` to update `uv.lock` after changing dependencies
