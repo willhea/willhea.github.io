@@ -1,7 +1,7 @@
 ---
 Title: Just use money market funds
 Date: 2025-10-17
-Status: Published
+Status: published
 Category: blog
 Tags: startups, operations, finance, treasury, liquidity, cash
 Slug: money-market
