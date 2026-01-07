@@ -9,8 +9,6 @@ Slug: national-links-trust
 Summary: National Links Trust has been an excellent steward of DC's public golf courses, and I'm saddened to see their lease cancelled.
 ---
 
-<!-- ![Me practicing at East Potomac like a goober.](/images/east_potomac_practice.jpg) -->
-
 My parents are avid golfers. Eight years ago, I saw how much fun they were having and how beautiful the courses were. I resolved to learn how to play so I could play with them. 
 
 Back at home, I searched for "golf courses near me" and, after the sticker shock of Arlington's private courses, searched for "public affordable golf courses near me." That returned a much more reasonable set of options. The closest course with golf lessons was [East Potomac](https://www.playdcgolf.com/east-potomac-golf-links/). I signed up for the [Get Golf Ready 101 Class](https://www.playdcgolf.com/group-lessons/) and never looked back. 
