@@ -1,4 +1,4 @@
-PELICAN?=pelican
+PELICAN?=python -m pelican
 PELICANOPTS=
 
 # Use uv run to execute Python packages from the venv
