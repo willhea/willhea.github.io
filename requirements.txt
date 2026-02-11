@@ -3,7 +3,7 @@ bcrypt==4.3.0
 beautifulsoup4==4.13.5
 blinker==1.9.0
 cffi==1.17.1
-cryptography==45.0.7
+cryptography==46.0.5
 decorator==5.2.1
 Deprecated==1.2.18
 docutils==0.22
