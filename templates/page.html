@@ -2,6 +2,10 @@
 
 {% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
 
+{% block meta_description %}
+{% if page.summary %}<meta name="description" content="{{ page.summary|striptags }}">{% endif %}
+{% endblock %}
+
 {% block content %}
 <article>
   <header>

@@ -1,4 +1,5 @@
 Title: About
+Summary: Operations executive specializing in fixing dysfunction, building data visibility, and driving decisions. Experience spans startups to federal government.
 
 I walk into dysfunction, build systems to create data visibility, and use that data to drive decisions.
 

@@ -1,4 +1,5 @@
 Title: Portfolio
+Summary: Case studies from Operation Warp Speed, DOJ, DOE, and startups. Results-focused project documentation with metrics and outcomes.
 
 Selected projects demonstrating my approach: inherit a problem, build visibility, use data to drive decisions.
 
