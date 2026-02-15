@@ -1,4 +1,4 @@
-name: Build and Deploy Pelican Site
+name: Build and Deploy Hugo Site
 
 on:
   push:
@@ -10,93 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the private repo (source content)
       - name: Checkout source repo
         uses: actions/checkout@v4
         with:
+          submodules: true
           fetch-depth: 0
 
-      # Set up Python
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          python-version: "3.13"
+          hugo-version: '0.155.3'
+          extended: true
 
-      # Install uv
-      - name: Install uv
-        uses: astral-sh/setup-uv@v2
+      - name: Build site with Hugo
+        run: hugo --minify
 
-      # Sync dependencies and build the site
-      - name: Sync dependencies
-        run: uv sync
-
-      # Build the site with Pelican using uv
-      - name: Build site with Pelican
-        run: uv run pelican content -o output -s publishconf.py
-
-      # Configure Git globally so checkout of public repo works
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # Checkout public repo
-      - name: Checkout public repo
-        uses: actions/checkout@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          repository: willhea/willhea.github.io
-          path: public_repo
-          token: ${{ secrets.PUBLISH_TOKEN }}
-          ref: main
-          fetch-depth: 0
-
-      # Deploy site (mirror output, preserve files, commit only if changes)
-      - name: Deploy to public repo
-        run: |
-          cd public_repo
-
-          # Ensure branch exists
-          git checkout -B main
-
-          # Optional: override Git identity locally (redundant but safe)
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Files to preserve
-          PRESERVE_FILES=("README.md")  # remove CNAME from preserve list
-
-          # Backup preserved files
-          for f in "${PRESERVE_FILES[@]}"; do
-            [ -f "$f" ] && cp "$f" ../
-          done
-
-          # Clean up any existing CNAME directory or file
-          rm -rf CNAME
-
-          # Sync Pelican output to repo, excluding .git and preserved files
-          rsync -a --delete ../output/ ./ --exclude ".git" --exclude "${PRESERVE_FILES[@]}"
-
-          # Restore preserved files
-          for f in "${PRESERVE_FILES[@]}"; do
-            [ -f "../$f" ] && cp "../$f" .
-          done
-
-          # Create CNAME file for custom domain
-          echo "willhea.com" > CNAME
-          
-          # Debug: Show what we created
-          echo "=== CNAME file contents ==="
-          cat CNAME
-          echo "=== CNAME file details ==="
-          ls -la CNAME
-          echo "=== Current directory contents ==="
-          ls -la
-
-          # Commit & push only if there are changes
-          git add .
-          if ! git diff-index --quiet HEAD; then
-            git commit -m "Deploy site with custom domain CNAME"
-            git push origin main
-          else
-            echo "No changes detected; skipping deploy."
-          fi
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: willhea.com

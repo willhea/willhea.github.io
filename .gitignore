@@ -1,20 +1,14 @@
-__pycache__/
-*.py[cod]
-*.egg-info/
-pip-log.txt
+# Hugo
+public/
+resources/
+.hugo_build.lock
 
-# Virtual environments
+# Virtual environments (legacy)
 .venv/
 venv/
 env/
 .env
 .env.*
-
-# uv - Python package manager
-# (uv.lock should be committed for reproducible installs)
-
-# Pelican output
-output/
 
 # Editors/IDEs
 .idea/
@@ -23,4 +17,3 @@ output/
 # OS files
 .DS_Store
 Thumbs.db
-

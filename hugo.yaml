@@ -1,0 +1,136 @@
+baseURL: https://willhea.com/
+languageCode: en-us
+title: Will Hea
+theme: PaperMod
+
+# Build settings
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+enableEmoji: true
+
+# Pagination
+pagination:
+  pagerSize: 10
+
+# Taxonomies
+taxonomies:
+  tag: tags
+  category: categories
+
+# Minification
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Site parameters
+params:
+  env: production
+  title: Will Hea
+  description: "Operations executive specializing in fixing dysfunction, building data visibility, and driving decisions."
+  keywords: [operations, consulting, data, systems]
+  author: Will Hea
+
+  # Theme mode (auto, light, dark)
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  # Show reading time, word count, etc
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+
+  # Home page
+  homeInfoParams:
+    Title: "Will Hea"
+    Content: "I'm an operations executive who walks into dysfunction, builds systems to create data visibility, and uses that data to drive decisions."
+
+  # Profile mode (alternative to homeInfoParams)
+  profileMode:
+    enabled: true
+    title: "Will Hea"
+    subtitle: "I walk into dysfunction, build systems to create data visibility, and use that data to drive decisions."
+    imageUrl: "/images/25-08-23Headshot_Edited.png"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: "Will Hea"
+    buttons:
+      - name: About
+        url: /about/
+      - name: Portfolio
+        url: /portfolio/
+      - name: Posts
+        url: /posts/
+
+  # Social icons
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/willhea/"
+    - name: x
+      url: "https://x.com/WilliamHea"
+    - name: bluesky
+      url: "https://bsky.app/profile/willhea.com"
+    - name: github
+      url: "https://github.com/willhea"
+
+  # SEO
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # Search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "summary", "content"]
+
+# Menu
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 20
+    - identifier: posts
+      name: Writing
+      url: /posts/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Markup settings
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
