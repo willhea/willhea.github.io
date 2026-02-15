@@ -1,0 +1,6 @@
+img[src$="#floatright"] {
+    float: right;
+    max-width: 300px;
+    margin: 0 0 1rem 1.5rem;
+    border-radius: 8px;
+}

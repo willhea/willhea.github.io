@@ -15,4 +15,4 @@ description: "Get in touch with Will Hea for operations consulting, federal cont
 - Federal contracting and consulting engagements
 - Organizational development and process optimization projects
 
-I'm particularly interested in complex, regulated environments where building systems and data visibility drives decisions.
+I'm particularly interested in complex, regulated environments where building systems and visibility drives better decisions.
