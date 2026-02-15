@@ -6,6 +6,16 @@
     <meta name="generator" content="Pelican" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block meta_description %}{% endblock %}
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    <meta property="og:type" content="website">
+    {% block open_graph %}{% endblock %}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    {% block twitter_card %}{% endblock %}
+
     <link rel="stylesheet" href="{{ SITEURL }}/site.css">
     
     <!-- GoatCounter Analytics -->
