@@ -60,6 +60,24 @@ STATIC_PATHS = [
 # Exclude drafts from generation
 ARTICLE_EXCLUDES = ["drafts"]
 
+# Plugins
+PLUGINS = ["sitemap"]
+
+# Sitemap configuration
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.7,  # About and Portfolio are high value
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "weekly",
+        "pages": "monthly",
+    },
+}
+
 # Expose current year to templates (avoid using Jinja now())
 CURRENT_YEAR = datetime.date.today().year
 
