@@ -5,7 +5,7 @@ description: "Operations executive specializing in fixing dysfunction, building 
 
 ![Will Hea](/images/25-08-23Headshot_Edited.png#floatright)
 
-I walk into dysfunction, build systems to create data visibility, and use that data to drive decisions.
+I embed where clarity is needed, surface what's not working, and build systems that outlast me.
 
 ## What I Do
 
