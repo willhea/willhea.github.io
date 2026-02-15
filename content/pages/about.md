@@ -1,11 +1,44 @@
 Title: About
 
-Hi! I'm Will! This is my personal website. There are many like it, but this one is mine.
+I walk into dysfunction, build systems to create data visibility, and use that data to drive decisions.
 
-I've worked across various environments, from running my own company to VC-backed startups, to government contracting. My background spans physical products (Controlant, Commonwealth Joe), software (Controlant, Phin Security), and services (AE Strategies, Accenture Federal Services). I have held roles including CEO, Vice President, Head of Finance, Head of HR, product manager, and project manager. I led Skeptical Consulting LLC as founder and CEO until its sale in June 2021. I have worked as a federal contractor with agencies including the DOD, DOE, DOJ, and HHS, where I played a key role in the tracking and safety of the Pfizer COVID-19 in the US for [Operation Warp Speed](https://en.wikipedia.org/wiki/Operation_Warp_Speed).
+## What I Do
 
-I want to work on the most interesting problems, with the best people, all the time. 
+I lead teams to quickly identify, test, iterate, and solve the most important product, operations, sales, and process obstacles for recurring revenue business models. My clients range from startups to the federal government. I bring an analytical, transparent, and collaborative approach to problem solving.
 
-In my free time, I play ultimate frisbee, flyfish, and play Dungeons & Dragons with my friends.
+**Key themes across my work:**
 
-I built this website using [Pelican](https://getpelican.com/) using [python](https://www.python.org/) and hosted on [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Here is the [github repo](https://github.com/willhea/willhea.github.io).
+- **Operational chaos to systems:** I inherit messes, figure out what's broken, build visibility, and fix it
+- **Revenue-focused:** Every decision framed around how the business makes money
+- **Cross-system integration:** Connecting disconnected tools to create a single source of truth
+- **Regulated environments:** HIPAA, SOC II, NIST 853, Congressional ethics, federal contracting
+
+## Selected Work
+
+**Operation Warp Speed (2020-2023):** Primary U.S. point of contact for Pfizer COVID-19 vaccine monitoring. Managed $20M+ annual contract. Reported to OWS federal leadership, worked with U.S. generals and high level contacts at CVS, Pfizer, Walmart, Walgreens. Received Letter of Commendation from General Gustave Perna and recognition from President Biden.
+
+**Phin Security (2024-2025):** Inherited four disconnected financial systems with no integration. Built Python/Looker Studio reporting that gave the company its first accurate churn, cancellation, and revenue data. Reduced delinquent invoices from 30% to 0%, recovered $80K+ in bad debt, and identified the pricing and churn problems blocking growth.
+
+**DOJ Criminal Division (2015-2018):** Project manager for Talent Tracker, which reduced attorney background clearance times from 1-2 years to under 90 days. Won 2016 DOJ Innovation Award. Saved a failing contract and grew it to the company's second largest contract.
+
+**Department of Energy (2019):** Inherited ServiceNow project 12 months behind schedule with almost no work completed. Rebuilt team, served as Product Manager, achieved ATO approval in under 5 months while reducing staffing costs 75%.
+
+See my [Portfolio]({filename}/pages/portfolio.md) for more details.
+
+## Background
+
+I've worked across government contracting (AE Strategies, Accenture Federal Services), startups (Controlant, Phin Security, Commonwealth Joe), and my own companies (Skeptical Consulting, Skeptical Labs). I've held titles including CEO, Vice President, Director of Operations, and Project Manager. I hold PMP, A-CSM, CSPO, and SAFe Agilist certifications.
+
+Education: MA and BA in International Studies from American University's School of International Service. 
+
+## What I'm Looking For
+
+I want to work on the most interesting problems, with the best people, all the time.
+
+## Outside of Work
+
+Ultimate frisbee, fly fishing, Dungeons & Dragons, and golf.
+
+## This Website
+
+Built with [Pelican](https://getpelican.com/) (Python) and hosted on [GitHub Pages](https://docs.github.com/en/pages). Designed to be fast, simple, and privacy-respecting. [Source code](https://github.com/willhea/willhea.github.io).
