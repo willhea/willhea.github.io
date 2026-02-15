@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Skeptical-Labs on Will Hea</title>
+    <link>https://willhea.com/tags/skeptical-labs/</link>
+    <description>Recent content in Skeptical-Labs on Will Hea</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://willhea.com/tags/skeptical-labs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skeptical Labs LLC Goals, Structure, &amp; Principles</title>
+      <link>https://willhea.com/posts/skeptical-labs-goals/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://willhea.com/posts/skeptical-labs-goals/</guid>
+      <description>Goals and operating principles for Skeptical Labs LLC.</description>
+    </item>
+  </channel>
+</rss>
