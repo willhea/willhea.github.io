@@ -3,13 +3,6 @@ public/
 resources/
 .hugo_build.lock
 
-# Virtual environments (legacy)
-.venv/
-venv/
-env/
-.env
-.env.*
-
 # Editors/IDEs
 .idea/
 .vscode/

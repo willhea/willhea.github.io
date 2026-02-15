@@ -7,6 +7,8 @@ tags: ["hugo", "static-site", "github-pages", "privacy", "goatcounter"]
 
 In a [prior post](/posts/why-willhea/), I mentioned I wanted to create a personal site that was simple, low cost or free, easy to maintain, and relied on open source projects. This post details the build of this site that meets all of those goals.
 
+*Note: I've migrated to Hugo from Pelican. This post is updated accordingly.*
+
 ## My Goals
 
 My goals for the infrastructure for this site are:
@@ -22,7 +24,7 @@ My goals for the infrastructure for this site are:
 
 For hosting, I chose **GitHub Pages** because it's free and one fewer service to setup and maintain.
 
-For the static site generator, I chose **Hugo** with the **PaperMod** theme. Hugo is fast, well-documented, and has excellent theme support. PaperMod provides a clean, minimal design with dark mode support out of the box.
+For the static site generator, I chose **Hugo** with the **PaperMod** theme. Hugo is fast, well-documented, and has excellent theme support. PaperMod provides a clean, minimal design with dark mode support out of the box. *Note: I formerly used Pelican with a custom theme.*
 
 ## Building
 

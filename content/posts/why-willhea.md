@@ -39,7 +39,7 @@ It was also overkill for my needs: posts were stored in Markdown and in a Postgr
 
 After reviewing my Replit site for a final time, I realized that I need to write, I prefer writing in Markdown, and no amount of fancy code is going to replace me sitting down and typing. If I can solve the problem of writing, I can figure out everything else later.
 
-To that end, I've built this site using the [Pelican](https://docs.getpelican.com/en/stable/index.html) static site generator. [This post](/posts/how-i-built-this-site/) provides more detail on how.
+To that end, I've built this site using the [Hugo](https://gohugo.io/) static site generator. [This post](/posts/how-i-built-this-site/) provides more detail on how. *Note: I previously built this site with [Pelican](https://docs.getpelican.com/en/latest/#).*
 
 ## What's Different This Time?
 
