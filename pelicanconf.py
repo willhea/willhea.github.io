@@ -81,6 +81,11 @@ SITEMAP = {
 # Expose current year to templates (avoid using Jinja now())
 CURRENT_YEAR = datetime.date.today().year
 
+# Homepage configuration
+HOMEPAGE_HEADSHOT = "images/25-08-23Headshot_Edited.png"
+HOMEPAGE_INTRO = "I'm an operations executive who walks into dysfunction, builds systems to create data visibility, and uses that data to drive decisions."
+SITE_DESCRIPTION = "Operations executive specializing in fixing dysfunction, building data visibility, and driving decisions."
+
 # Enable useful Markdown extensions, including admonitions, tables, and footnotes
 # - admonition: allows vanilla-style callouts with `!!! note`, `!!! info`, etc.
 # - tables: GitHub-like table syntax

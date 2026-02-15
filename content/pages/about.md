@@ -1,6 +1,8 @@
 Title: About
 Summary: Operations executive specializing in fixing dysfunction, building data visibility, and driving decisions. Experience spans startups to federal government.
 
+![Will Hea]({static}/images/25-08-23Headshot_Edited.png){: .headshot .headshot--large}
+
 I walk into dysfunction, build systems to create data visibility, and use that data to drive decisions.
 
 ## What I Do
