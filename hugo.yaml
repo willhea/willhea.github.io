@@ -54,12 +54,7 @@ params:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
 
-  # Home page
-  homeInfoParams:
-    Title: "Will Hea"
-    Content: "I embed where clarity is needed, surface what's not working, and build systems that outlast me."
-
-  # Profile mode (alternative to homeInfoParams)
+  # Profile mode (home page)
   profileMode:
     enabled: true
     title: "Will Hea"
