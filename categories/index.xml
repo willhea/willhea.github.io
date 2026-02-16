@@ -4,6 +4,11 @@
     <title>Categories on Will Hea</title>
     <link>https://willhea.com/categories/</link>
     <description>Recent content in Categories on Will Hea</description>
+    <image>
+      <title>Will Hea</title>
+      <url>https://willhea.com/images/headshot.png</url>
+      <link>https://willhea.com/images/headshot.png</link>
+    </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
     <atom:link href="https://willhea.com/categories/index.xml" rel="self" type="application/rss+xml" />
