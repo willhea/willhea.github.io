@@ -31,6 +31,12 @@ params:
   keywords: [operations, consulting, data, systems]
   author: Will Hea
 
+  # Logo in header
+  label:
+    text: Will Hea
+    icon: /images/logo.svg
+    iconHeight: 35
+
   # Favicon
   assets:
     favicon: /favicon.svg
@@ -43,7 +49,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
@@ -83,7 +89,7 @@ params:
 
   # Default social image (used when page has no cover image)
   images:
-    - /images/headshot.png
+    - /images/social.png
 
   # SEO
   cover:
