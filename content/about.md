@@ -3,7 +3,7 @@ title: "About"
 description: "Operations executive who embeds with teams, builds systems for visibility, and drives better decisions. Experience spans startups to federal government."
 ---
 
-![Will Hea](/images/25-08-23Headshot_Edited.png#floatright)
+![Will Hea](/images/headshot.png#floatright)
 
 I embed where clarity is needed, surface what's not working, and build systems that outlast me.
 

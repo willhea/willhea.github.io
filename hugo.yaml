@@ -31,6 +31,10 @@ params:
   keywords: [operations, consulting, data, systems]
   author: Will Hea
 
+  # Favicon
+  assets:
+    favicon: /favicon.svg
+
   # Theme mode (auto, light, dark)
   defaultTheme: auto
   disableThemeToggle: false
@@ -54,7 +58,7 @@ params:
     enabled: true
     title: "Will Hea"
     subtitle: "I embed where clarity is needed, surface what’s not working, and build systems that outlast me."
-    imageUrl: "/images/25-08-23Headshot_Edited.png"
+    imageUrl: "/images/headshot.png"
     imageWidth: 150
     imageHeight: 150
     imageTitle: "Will Hea"
@@ -76,6 +80,10 @@ params:
       url: "https://bsky.app/profile/willhea.com"
     - name: github
       url: "https://github.com/willhea"
+
+  # Default social image (used when page has no cover image)
+  images:
+    - /images/headshot.png
 
   # SEO
   cover:
