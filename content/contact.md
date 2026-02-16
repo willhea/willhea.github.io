@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 description: "Get in touch with Will Hea for operations consulting, federal contracting, or startup advisory work."
+hideMeta: true
 ---
 
 ## Get in Touch

@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "Operations executive who embeds with teams, builds systems for visibility, and drives better decisions. Experience spans startups to federal government."
+hideMeta: true
 ---
 
 ![Will Hea](/images/headshot.png#floatright)

@@ -1,6 +1,7 @@
 ---
 title: "Portfolio"
 description: "Case studies from Operation Warp Speed, DOJ, DOE, and startups. Results-focused project documentation with metrics and outcomes."
+hideMeta: true
 ---
 
 Selected projects demonstrating my approach: embed with the team, build visibility, and leave behind systems that last.
