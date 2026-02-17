@@ -1,7 +1,7 @@
 ---
 title: "How I Built This Site"
 date: 2025-09-03
-summary: "Hugo static site generator with PaperMod theme."
+summary: "How I built willhea.com using Hugo with the PaperMod theme, hosted for free on GitHub Pages with GoatCounter analytics and Cloudflare DNS."
 tags: ["hugo", "static-site", "github-pages", "privacy", "goatcounter"]
 ---
 

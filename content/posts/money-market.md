@@ -1,7 +1,7 @@
 ---
 title: "Just use money market funds"
 date: 2025-10-17
-summary: "Simple, easy, accessible cash with a fair return."
+summary: "Why money market funds are the best default for startup cash management. Simple, liquid, and better net returns than CDs or Treasuries with an advisor."
 tags: ["startups", "operations", "finance", "treasury", "liquidity", "cash"]
 ---
 

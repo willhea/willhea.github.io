@@ -1,7 +1,7 @@
 ---
 title: "Skeptical Labs LLC Goals, Structure, & Principles"
 date: 2025-09-10
-summary: "Goals and operating principles for Skeptical Labs LLC."
+summary: "How I structured Skeptical Labs LLC, including goals, operating principles, service offerings, and the legal and financial setup I recommend for solo consulting."
 tags: ["startups", "operations", "llc", "company-structure", "principles", "skeptical-labs"]
 ---
 

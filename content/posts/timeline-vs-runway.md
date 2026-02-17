@@ -1,7 +1,7 @@
 ---
 title: "Your timeline is shorter than your runway"
 date: 2025-09-16
-summary: "Don't plan beyond your runway."
+summary: "Startups die when they plan beyond their runway. Why your operational timeline should never exceed your cash reserves, and how to prioritize accordingly."
 tags: ["startups", "fundraising", "prioritization", "runway", "operations"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Why willhea.com?"
 date: 2025-09-03
-summary: "I need a place to play and share my thoughts."
+summary: "Why I built a personal site after years of reluctance. Goals for writing publicly, lessons from failed attempts, and what's different this time."
 tags: ["personal", "writing", "goals", "introduction", "meta"]
 ---
 
