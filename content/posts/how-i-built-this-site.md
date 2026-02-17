@@ -1,8 +1,8 @@
 ---
 title: "How I Built This Site"
 date: 2025-09-03
-summary: "How I built willhea.com using Hugo with the PaperMod theme, hosted for free on GitHub Pages with GoatCounter analytics and Cloudflare DNS."
-tags: ["hugo", "static-site", "github-pages", "privacy", "goatcounter"]
+summary: "How I built willhea.com using Hugo with the PaperMod theme, hosted for free on GitHub Pages with Cloudflare Web Analytics and DNS."
+tags: ["hugo", "static-site", "github-pages", "privacy", "cloudflare"]
 ---
 
 In a [prior post](/posts/why-willhea/), I mentioned I wanted to create a personal site that was simple, low cost or free, easy to maintain, and relied on open source projects. This post details the build of this site that meets all of those goals.
@@ -17,7 +17,7 @@ My goals for the infrastructure for this site are:
 2. Create a static site from the Markdown files that loads quickly
 3. Rely on a maintained, documented, open source backend
 4. Use cheap/free hosting
-5. Privacy friendly tracking & analytics
+5. Minimally invasive tracking & analytics
 6. Simple customization
 
 ## Selecting a Build
@@ -30,7 +30,7 @@ For the static site generator, I chose **Hugo** with the **PaperMod** theme. Hug
 
 This site works across two GitHub repos, one public and one private. The [public repo](https://github.com/willhea/willhea.github.io) holds the generated static site. The private repo holds the markdown files, Hugo config, and themes.
 
-When a commit is pushed to the main branch of the private repo, it triggers a GitHub Action to build the site and push the outputs to the public repo.
+When a commit is pushed to the main branch of the repo, it triggers a GitHub Action to build the site.
 
 ## Styling
 
@@ -42,6 +42,6 @@ PaperMod's default styling aligns well with these preferences. Clean, minimal, f
 
 I'm not writing this blog for pageviews. Still, it's useful to know who accesses this site, how often, and what they view. I don't need detailed information on every user.
 
-I went with [GoatCounter](https://www.goatcounter.com/) because it's free for my use case and [dead simple to install](https://www.goatcounter.com/help/start) and maintain.
+I went with [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/) because it's free for my use case and one fewer service to maintain (I already use Cloudflare DNS). *Note: I previously used [GoatCounter](https://www.goatcounter.com/).*
 
 I like the setup so far and it's been extremely easy to update and maintain. It's inspired me to write, so it's already doing its job!
