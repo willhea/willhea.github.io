@@ -1,5 +1,4 @@
-{{- /* GoatCounter analytics - privacy-friendly, no PII */ -}}
+{{- /* Cloudflare Web Analytics */ -}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-<script data-goatcounter="https://willhea.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "840430974c994afaaf8576e97447c844"}'></script>
 {{- end }}
