@@ -18,7 +18,7 @@
       <link>https://willhea.com/posts/how-i-built-this-site/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://willhea.com/posts/how-i-built-this-site/</guid>
-      <description>Hugo static site generator with PaperMod theme.</description>
+      <description>How I built willhea.com using Hugo with the PaperMod theme, hosted for free on GitHub Pages with Cloudflare Web Analytics and DNS.</description>
     </item>
   </channel>
 </rss>
