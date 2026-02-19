@@ -45,7 +45,7 @@ The U.S. Government needed real-time monitoring of every Pfizer COVID-19 vaccine
 
 ### Problem
 
-Four disconnected financial systems (Quickbooks, Chargebee, Hubspot, internal database) with no integration. Three different billing methods. Books took 2+ months to reconcile. No accurate revenue, churn, or growth data.
+Seed-stage company with four financial systems (Quickbooks, Chargebee, Hubspot, internal database) that had never been integrated. No consolidated view of revenue, churn, or growth.
 
 ### What I Did
 
@@ -128,7 +128,7 @@ Congressional ethics package submissions took 30+ days with outside support. Eac
 
 ### Problem
 
-Attorney hiring took 1-2 years due to background investigation delays. Candidates accepted other positions before being cleared. Previous contractor team spent months on requirements gathering without delivering a solution.
+Attorney hiring took 1-2 years due to background investigation delays. Candidates accepted other positions before being cleared. Traditional requirements gathering approaches hadn't yielded a solution.
 
 ### What I Did
 

@@ -29,7 +29,7 @@ In other words, if you will die before you get the benefit and it doesn't help y
 
 Does this mean that all long-term projects should be abandoned? No. But the vast majority of everyone's time and resources should be hyper-focused on what needs to be accomplished to enable the next fundraise.
 
-While this advice may seem obvious, it can be difficult to apply in day-to-day operations. Every startup I've worked at has struggled with these decisions. Consider the following questions for a company with 6 months of runway:
+While this advice may seem obvious, it can be difficult to apply in day-to-day operations. These decisions are difficult at every startup. Consider the following questions for a company with 6 months of runway:
 
 - Should we hire a marketing guru who will help us generate more revenue 12 months from now? Answer: Don't hire.
 - Should we prepay for next year's software spend to lock in a discount? Answer: Don't prepay.
