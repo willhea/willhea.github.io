@@ -27,7 +27,7 @@ minify:
 params:
   env: production
   title: Will Hea
-  description: "Operations executive who embeds with teams, builds systems for visibility, and drives better decisions."
+  description: "Operations executive who builds systems for visibility, drives better decisions, and delivers results."
   keywords: [operations, consulting, data, systems]
   author: Will Hea
 
@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true
     title: "Will Hea"
-    subtitle: "I embed where clarity is needed, surface what’s not working, and build systems that outlast me."
+    subtitle: "I go where clarity is needed, surface what’s not working, and build systems that last."
     imageUrl: "/images/headshot.png"
     imageWidth: 150
     imageHeight: 150

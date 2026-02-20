@@ -47,9 +47,7 @@ Documentation: https://adityatelange.github.io/hugo-PaperMod/
 
 ## Analytics
 
-Use **GoatCounter** for site analytics. Do not suggest Google Analytics or other tracking systems.
-- Privacy-friendly: no PII, respect DNT headers
-- Documentation: https://www.goatcounter.com/help/start
+Uses **Cloudflare Web Analytics** (injected via `layouts/partials/extend_head.html`, production only). Do not suggest Google Analytics or other tracking systems.
 
 ## Deployment
 

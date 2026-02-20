@@ -4,7 +4,7 @@ description: "Case studies from Operation Warp Speed, DOJ, DOE, and startups. Re
 hideMeta: true
 ---
 
-Selected projects demonstrating my approach: embed with the team, build visibility, and leave behind systems that last.
+Selected projects demonstrating my approach: work with the team, build visibility, and leave behind systems that last.
 
 ---
 
@@ -141,7 +141,7 @@ Attorney hiring took 1-2 years due to background investigation delays. Candidate
 
 - Background clearance times reduced from 1-2 years to under 90 days
 - Won 2016 DOJ Innovation Award
-- Contract saved and grew to company's largest
+- Grew to company's largest contract
 
 ---
 

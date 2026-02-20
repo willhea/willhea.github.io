@@ -1,16 +1,16 @@
 ---
 title: "About"
-description: "Operations executive who embeds with teams, builds systems for visibility, and drives better decisions. Experience spans startups to federal government."
+description: "Operations executive who builds systems for visibility, drives better decisions, and delivers results. Experience spans startups to federal government."
 hideMeta: true
 ---
 
 ![Will Hea](/images/headshot.png#floatright)
 
-I embed with teams, build systems for visibility and accountability, and leave behind infrastructure that outlasts me.
+I work with teams, build systems for visibility and accountability, and leave behind infrastructure that lasts.
 
 ## What I Do
 
-I lead teams to quickly identify, test, iterate, and solve the most important product, operations, sales, and process obstacles for recurring revenue business models. My clients range from startups to the federal government. I bring an analytical, transparent, and collaborative approach to problem solving.
+I help teams identify and solve the most important product, operations, and process problems for recurring revenue businesses. My clients range from startups to the federal government. I bring an analytical, transparent, and collaborative approach to problem solving.
 
 **Key themes across my work:**
 
@@ -25,7 +25,7 @@ I lead teams to quickly identify, test, iterate, and solve the most important pr
 
 **Phin Security (2024-2025):** Built Python/Looker Studio financial reporting system that unified four data sources into real-time dashboards. First accurate churn, revenue, and growth data in company history. Reduced delinquent invoices from 30% to 0%, recovered $80K+ in bad debt.
 
-**DOJ Criminal Division (2015-2018):** Project manager for Talent Tracker, which reduced attorney background clearance times from 1-2 years to under 90 days. Won 2016 DOJ Innovation Award. Saved a failing contract and grew it to the company's second largest contract.
+**DOJ Criminal Division (2015-2018):** Project manager for Talent Tracker, which reduced attorney background clearance times from 1-2 years to under 90 days. Won 2016 DOJ Innovation Award. Grew the contract to the company's second largest.
 
 **Department of Energy (2019):** Took over a ServiceNow project at DOE and achieved ATO approval in under 5 months while reducing staffing costs 75%.
 
