@@ -27,7 +27,7 @@ minify:
 params:
   env: production
   title: Will Hea
-  description: "Operations executive who builds systems for visibility, drives better decisions, and delivers results."
+  description: "Operations leader who builds systems for data-driven accountability. Hands-on with data and technical tools. Experience spans startups to federal government."
   keywords: [operations, consulting, data, systems]
   author: Will Hea
 
@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true
     title: "Will Hea"
-    subtitle: "I go where clarity is needed, surface what’s not working, and build systems that last."
+    subtitle: "I work with teams to build the dashboards, reporting, and operational systems that make goals visible and progress measurable."
     imageUrl: "/images/headshot.png"
     imageWidth: 150
     imageHeight: 150

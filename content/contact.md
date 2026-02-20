@@ -12,8 +12,8 @@ hideMeta: true
 
 ## Open To
 
-- Operations leadership roles at the right company
-- Federal contracting and consulting engagements
-- Organizational development and process optimization projects
+- Operations leadership roles where I design the systems, not just run them
+- Consulting engagements where I own the approach and deliverables
+- Building operational infrastructure in complex or regulated industries
 
-I'm particularly interested in complex, regulated environments where building systems and visibility drives better decisions.
+I do my best work when the goals are explicit, the metrics are shared, and I have the autonomy to choose the tools and approach. If that describes how you work, let's talk.
