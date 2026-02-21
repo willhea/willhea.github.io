@@ -1,6 +1,6 @@
 ---
 title: "In Praise of National Links Trust"
-date: 2026-01-06T10:00:00-05:00
+date: 2026-01-06
 summary: "National Links Trust has been an excellent steward of DC's public golf courses, and I'm saddened to see their lease cancelled."
 tags: ["golf"]
 ---

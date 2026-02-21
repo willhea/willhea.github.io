@@ -4,7 +4,7 @@
 
 ## About Will Hea
 
-Will Hea is an operations executive based in Arlington, VA. He goes where clarity is needed, surfaces what's not working, and builds systems that last.
+Will Hea is an operations executive based in Arlington, VA. He works alongside teams to build dashboards, reporting, and operational systems. Experience spans startups to federal government.
 
 ## Professional Focus
 
@@ -36,4 +36,4 @@ PMP, A-CSM, CSPO, SAFe Agilist
 ## Contact
 
 Email: will@willhea.com
-LinkedIn: linkedin.com/in/willhea
+LinkedIn: https://www.linkedin.com/in/willhea
