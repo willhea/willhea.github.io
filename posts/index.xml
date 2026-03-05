@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://willhea.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working Differently with AI</title>
+      <link>https://willhea.com/posts/working-differently-with-ai/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://willhea.com/posts/working-differently-with-ai/</guid>
+      <description>How Claude Code changed my daily work from documents and spreadsheets to terminals and Python. New habits around testing, documentation, security, and tooling that come from working alongside AI agents every day.</description>
+    </item>
     <item>
       <title>In Praise of National Links Trust</title>
       <link>https://willhea.com/posts/national-links-trust/</link>

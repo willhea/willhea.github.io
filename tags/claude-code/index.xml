@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Claude-Code on Will Hea</title>
+    <link>https://willhea.com/tags/claude-code/</link>
+    <description>Recent content in Claude-Code on Will Hea</description>
+    <image>
+      <title>Will Hea</title>
+      <url>https://willhea.com/images/social.png</url>
+      <link>https://willhea.com/images/social.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://willhea.com/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working Differently with AI</title>
+      <link>https://willhea.com/posts/working-differently-with-ai/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://willhea.com/posts/working-differently-with-ai/</guid>
+      <description>How Claude Code changed my daily work from documents and spreadsheets to terminals and Python. New habits around testing, documentation, security, and tooling that come from working alongside AI agents every day.</description>
+    </item>
+  </channel>
+</rss>
