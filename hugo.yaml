@@ -114,7 +114,7 @@ menu:
       url: /portfolio/
       weight: 20
     - identifier: posts
-      name: Writing
+      name: Blog
       url: /posts/
       weight: 30
     - identifier: contact
