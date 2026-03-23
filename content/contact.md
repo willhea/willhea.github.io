@@ -6,7 +6,7 @@ hideMeta: true
 
 ## Get in Touch
 
-**Email:** will@willhea.com
+**Email:** hello@willhea.com
 
 **LinkedIn:** [linkedin.com/in/willhea](https://www.linkedin.com/in/willhea/)
 
