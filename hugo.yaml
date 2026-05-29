@@ -113,6 +113,10 @@ menu:
       name: Portfolio
       url: /portfolio/
       weight: 20
+    - identifier: services
+      name: Services
+      url: https://skepticallabs.com/services/
+      weight: 25
     - identifier: posts
       name: Blog
       url: /posts/
