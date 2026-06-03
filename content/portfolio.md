@@ -13,7 +13,7 @@ Selected projects demonstrating my approach: work with the team, build visibilit
 **Role:** Primary U.S. Point of Contact / Product Owner
 **Client:** U.S. Government (HHS/DoD) via Controlant
 **Duration:** 2020-2023
-**Contract Value:** $20M+ annually
+**Contract Value:** $50M total
 
 ### Problem
 
