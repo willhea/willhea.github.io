@@ -35,6 +35,17 @@ The U.S. Government needed real-time monitoring of every Pfizer COVID-19 vaccine
 - Letter of Commendation from General Gustave Perna
 - Recognition from President Biden
 
+<div class="letter-gallery">
+  <figure>
+    <img src="/images/perna_commendation.jpg" alt="Operation Warp Speed Letter of Commendation awarded to Will Hea, signed by General Gustave F. Perna">
+    <figcaption>Letter of Commendation, General Gustave Perna</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/biden_recognition.jpg" alt="Letter from The White House recognizing Will Hea's contributions to the COVID-19 response, signed by President Joseph Biden">
+    <figcaption>Recognition letter, President Joseph Biden</figcaption>
+  </figure>
+</div>
+
 ---
 
 ## Phin Security - Financial Systems Rebuild
