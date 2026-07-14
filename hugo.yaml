@@ -113,6 +113,10 @@ menu:
       name: Portfolio
       url: /portfolio/
       weight: 20
+    - identifier: dives
+      name: Dives
+      url: /dives/
+      weight: 22
     - identifier: services
       name: Services
       url: https://skepticallabs.com/services/
