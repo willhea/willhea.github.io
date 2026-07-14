@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 0 560 400" width="560" height="400">
+  <polyline fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" points="40.0,40.0 40.0,280.0 120.0,360.0 175.0,305.0"/>
+  <polyline fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" points="167.9,312.1 230.0,374.1 320.0,284.1 320.0,200.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="175.0" y1="305.0" x2="167.9" y2="312.1"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="320.0" y1="200.0" x2="310.0" y2="200.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="310.0" y1="200.0" x2="310.0" y2="40.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="175.0" y1="305.0" x2="182.1" y2="297.9"/>
+  <polyline fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" points="182.1,297.9 230.0,345.9 300.0,275.9 300.0,200.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="300.0" y1="200.0" x2="310.0" y2="190.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="310.0" y1="190.0" x2="490.0" y2="190.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="490.0" y1="190.0" x2="490.0" y2="200.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="490.0" y1="200.0" x2="490.0" y2="360.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="490.0" y1="40.0" x2="490.0" y2="200.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="490.0" y1="200.0" x2="490.0" y2="210.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="310.0" y1="210.0" x2="490.0" y2="210.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="310.0" y1="210.0" x2="310.0" y2="200.0"/>
+  <line stroke="#000000" stroke-width="18" stroke-linecap="round" x1="310.0" y1="200.0" x2="310.0" y2="360.0"/>
+</svg>
