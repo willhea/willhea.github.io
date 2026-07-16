@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 560 400" width="560" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 0 560 400" width="560" height="400">
   <polyline fill="none" stroke="#0078BE" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" points="40.0,40.0 40.0,280.0 120.0,360.0 175.0,305.0"/>
   <polyline fill="none" stroke="#0078BE" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" points="167.9,312.1 230.0,374.1 320.0,284.1 320.0,200.0"/>
   <line stroke="#0078BE" stroke-width="18" stroke-linecap="round" x1="175.0" y1="305.0" x2="167.9" y2="312.1"/>
