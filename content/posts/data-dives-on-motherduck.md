@@ -1,10 +1,12 @@
 ---
-title: "Dives"
-description: "Interactive data Dives I built on MotherDuck — live, queryable visualizations of public datasets."
-hideMeta: true
+title: "Data Dives on MotherDuck"
+date: 2026-07-15
+summary: "Two interactive data apps I built on MotherDuck — a map of every Claude outage since 2023, and an NFL coaching tree you can walk branch by branch. Each is a Python pipeline plus a custom React view that queries a live database in the browser."
+tags: ["data", "motherduck", "python", "react", "ai"]
+draft: true
 ---
 
-[MotherDuck Dives](https://motherduck.com/divemaxxing/) are interactive, AI-built data apps that query a live database in the browser. These are ones I made: each is a data pipeline I wrote plus a custom React view, reading real data on every load. Click through to explore them.
+[MotherDuck Dives](https://motherduck.com/divemaxxing/) are interactive, AI-built data apps that query a live database in the browser. Instead of a static chart, each one reads real data on every load, so you can explore rather than just look. Here are two I made: each is a data pipeline I wrote plus a custom React view. Click through to explore them.
 
 <div class="dive-cards">
   <article class="dive-card">
