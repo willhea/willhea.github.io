@@ -68,7 +68,7 @@ params:
         url: /about/
       - name: Portfolio
         url: /portfolio/
-      - name: Posts
+      - name: Blog
         url: /posts/
 
   # Social icons
